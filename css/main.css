@@ -181,12 +181,6 @@ body main #sign-up #children #kids-sec {
   }
 }
 
-@media screen and (max-width: 450px) {
-  body main #sign-up #children #kids-sec {
-    height: 55vh;
-  }
-}
-
 body main #sign-up #children #kids-sec img {
   height: 100%;
 }
