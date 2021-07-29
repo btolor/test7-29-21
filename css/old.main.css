@@ -1,0 +1,442 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+}
+
+body header .container {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 36px 0 26px;
+}
+
+body header .container #logo-sec a img {
+  width: 500px;
+  height: 124px;
+}
+
+body header .container #callnow a {
+  text-decoration: none;
+  background: #3A86FF;
+  background-color: #3A86FF;
+  color: #FFFFFF;
+  font-size: 32px;
+  font-weight: 600;
+  padding: 16px 36px;
+}
+
+body main #sign-up {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body main #sign-up #children {
+  display: flex;
+  flex-direction: row;
+  height: 624px;
+}
+
+body main #sign-up #children #kids-sec {
+  background-image: url("../images/kids.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 53%;
+  text-align: right;
+}
+
+body main #sign-up #children #kids-sec img {
+  height: 100%;
+}
+
+body main #sign-up #children #form-sec {
+  width: 47%;
+  background: #ED7F01;
+  background-color: #ED7F01;
+}
+
+body main #sign-up #children #form-sec form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 78%;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form h3 {
+  font-size: 35px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+body main #sign-up #children #form-sec form #names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"] {
+  width: 42%;
+  font-size: 22px;
+  color: #FFFFFF;
+  background: transparent;
+  background-color: transparent;
+  padding: 8px 14px;
+  border: 2px solid #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]::placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]:-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]:focus {
+  outline: none;
+}
+
+body main #sign-up #children #form-sec form input[type="email"] {
+  font-size: 22px;
+  color: #FFFFFF;
+  background: transparent;
+  background-color: transparent;
+  padding: 8px 14px;
+  border: 2px solid #FFFFFF;
+  margin: 22px 0 16px;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]::placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]:-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]:focus {
+  outline: none;
+}
+
+body main #sign-up #children #form-sec form #phone-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"], body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+  font-size: 22px;
+  color: #FFFFFF;
+  background: transparent;
+  background-color: transparent;
+  padding: 8px 14px;
+  border: 2px solid #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]::placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]::placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]::-webkit-input-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]:-moz-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]:-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]::-moz-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]:-ms-input-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]:focus, body main #sign-up #children #form-sec form #phone-date input[type="tel"]:focus {
+  outline: none;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+  width: 42%;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"] {
+  width: 30%;
+}
+
+body main #sign-up #children #form-sec form #phone-date a img {
+  width: 42px;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+body main #sign-up #children #form-sec form input[type="submit"] {
+  width: 47%;
+  color: #3A86FF;
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: 22px;
+  padding: 12px 0;
+}
+
+body main #sign-up #happy-smiles-graphic {
+  width: 384px;
+  position: absolute;
+  left: -50px;
+  margin-bottom: 140px;
+}
+
+body main #sign-up #pediatric-dentistry .container {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 0;
+}
+
+body main #sign-up #pediatric-dentistry .container #text-sec {
+  flex-grow: 1;
+  padding-left: 72px;
+  padding-right: 100px;
+}
+
+body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+  font-size: 40px;
+  font-weight: 600;
+  color: #3A86FF;
+  padding-bottom: 16px;
+}
+
+body main #sign-up #pediatric-dentistry .container #text-sec p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.6;
+}
+
+body main #sign-up #pediatric-dentistry .container #img-sec {
+  text-align: right;
+}
+
+body main #sign-up #pediatric-dentistry .container #img-sec img {
+  width: 450px;
+  height: 450px;
+}
+
+body main #choose-us {
+  position: relative;
+}
+
+body main #choose-us #why {
+  background: #ED7F01;
+  background-color: #ED7F01;
+}
+
+body main #choose-us #why .container {
+  width: 87%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 26px 0;
+}
+
+body main #choose-us #why .container h1 {
+  font-size: 54px;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+body main #choose-us #reasons .container {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px 60px;
+}
+
+body main #choose-us #reasons .container .reason {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body main #choose-us #reasons .container .reason img {
+  width: 126px;
+  height: 125px;
+}
+
+body main #choose-us #reasons .container .reason p {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  padding-top: 8px;
+}
+
+body main #choose-us #doctor {
+  background: #3A86FF;
+  background-color: #3A86FF;
+}
+
+body main #choose-us #doctor .container {
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 64px 0 30px;
+}
+
+body main #choose-us #doctor .container #text-sec {
+  width: 60%;
+}
+
+body main #choose-us #doctor .container #text-sec h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding-bottom: 8px;
+}
+
+body main #choose-us #doctor .container #text-sec p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 1.6;
+  padding-bottom: 36px;
+}
+
+body main #choose-us #doctor .container #img-sec img {
+  position: absolute;
+  right: 0;
+  bottom: 42px;
+  width: 504px;
+}
+
+body main #choose-us #board-certified {
+  background-color: #FFFFFF;
+  background: #FFFFFF;
+}
+
+body main #choose-us #board-certified .container {
+  width: 87%;
+  margin: 0 auto;
+  padding: 26px 0 26px 80px;
+}
+
+body main #choose-us #board-certified .container img {
+  width: 640px;
+}
+
+body main #schedule {
+  background: #8338EC;
+  background-color: #8338EC;
+}
+
+body main #schedule .container {
+  width: 87%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px 0;
+}
+
+body main #schedule .container h1 {
+  font-size: 62px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+
+body main #schedule .container button {
+  font-size: 34px;
+  color: #8338EC;
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+  border: none;
+  font-weight: 600;
+  padding: 12px 26px;
+  cursor: pointer;
+}
+
+body footer {
+  display: flex;
+  flex-direction: row;
+}
+
+body footer #map-sec {
+  width: 50%;
+}
+
+body footer #info-sec {
+  width: 50%;
+  padding: 48px 80px 0;
+}
+
+body footer #info-sec a img {
+  width: 500px;
+  margin-bottom: 28px;
+}
+
+body footer #info-sec p {
+  font-size: 34px;
+  line-height: 1;
+  padding-bottom: 16px;
+}
+
+body footer #info-sec #icons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+
+body footer #info-sec #icons a {
+  width: fit-content;
+  margin-right: 34px;
+}
+
+body footer #info-sec #icons img {
+  width: 56px;
+}

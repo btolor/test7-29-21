@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 814 160" style="enable-background:new 0 0 814 160;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{fill:url(#Screen_Shot_2021-02-02_at_10.29.15_AM_1_);}
+</style>
+<pattern  x="-14" y="-341.7" width="1086" height="248" patternUnits="userSpaceOnUse" id="pattern" viewBox="0 -248 1086 248" style="overflow:visible;">
+	<g>
+		<rect y="-248" class="st0" width="1086" height="248"/>
+		
+			<image style="overflow:visible;enable-background:new    ;" width="1086" height="248" xlink:href="1F1F8B.png"  transform="matrix(1 0 0 -1 0 0)">
+		</image>
+	</g>
+</pattern>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="-10" y="6" width="1022" height="224"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g id="Scroll_Group_2" transform="translate(-64 -12)" class="st1">
+		
+			<pattern  id="Screen_Shot_2021-02-02_at_10.29.15_AM_1_" xlink:href="#pattern" patternTransform="matrix(0.7615 0 0 -0.7621 -1643.1238 -12253.082)">
+		</pattern>
+		<rect id="Screen_Shot_2021-02-02_at_10.29.15_AM" x="47" y="12" class="st2" width="827" height="189"/>
+	</g>
+</g>
+</svg>

@@ -1,0 +1,102 @@
+// Variables....
+// Font: 
+$tk-proxima-nova: "proxima-nova",sans-serif;
+$tk-quicksand: "quicksand",sans-serif;
+$tk-fairwater-script: "fairwater-script",sans-serif;
+// Colors:
+$orange: #ED7F01;
+$purple: #8338EC;
+$blue: #3A86FF;     
+$black: #000000;
+$white: #FFFFFF;
+    
+//MIXINS...
+// Media Queries Mixin...
+//Media query for responsive design...
+//Max-Width...
+=media-max($screen)
+    @media screen and (max-width: $screen)
+        @content
+
+//Min-Width...
+=media-min($screen)
+    @media screen and (min-width: $screen)
+        @content
+        
+=media-window-max($width,$height)
+    @media (max-width: $width) and (max-height: $height)
+        @content
+
+=media-height-max($screen)
+    @media screen and (max-height: $screen)
+        @content
+
+//Center Div...       
+=center($width, $margin)
+    width: $width
+    margin: $margin
+
+//Font Family Size Color Weight Styling...
+=text($text,$color,$size,$weight)
+    font-family: $text
+    color: $color
+    font-size: $size
+    font-weight: $weight
+
+//Display Flex...
+=flex($flex,$direction)
+    display: $flex
+    flex-direction: $direction
+
+//Display Flex Content...
+=fullFlex($flex,$direction,$content)
+    display: $flex
+    flex-direction: $direction
+    justify-content: $content
+    
+//Display Grid Rows...
+=grid-rows($grid,$rows)
+    display: $grid
+    grid-auto-rows: $rows
+
+//Display Grid Columns...
+=grid-rows($grid,$columns)
+    display: $grid
+    grid-template-columns: $columns
+
+//Custom anchor tag button styling...
+=btns($decoration, $color, $weight, $font, $transform, $size, $width, $margin, $bg-color, $radius, $padding, $transition)
+    text-decoration: $decoration
+    color: $color
+    font-weight: $weight
+    font-family: $font
+    text-transform: $transform
+    font-size: $size
+    width: $width
+    margin:  $margin
+    background-color: $bg-color
+    border-radius: $radius
+    padding: $padding
+    transition: $transition
+
+//Background Image...
+=bg-img($img,$size)
+    background-image: url($img)
+    background-size: $size
+
+=placeholder-color($color) 
+    &::placeholder 
+        color: $color    
+    
+    &::-webkit-input-placeholder  //* WebKit browsers */
+        color: $color
+    
+    &:-moz-placeholder  //* Mozilla Firefox 4 to 18 */
+        color: $color
+    
+    &::-moz-placeholder  //* Mozilla Firefox 19+ */
+        color: $color
+    
+    &:-ms-input-placeholder //* Internet Explorer 10+ */
+        color: $color
+    

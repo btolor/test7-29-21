@@ -1,0 +1,612 @@
+@import variables_mixins
+
+body 
+    font-family: $tk-proxima-nova
+    // Header Styles...
+    header 
+        .container  
+            @include center(87%, 0 auto)
+            @include fullFlex(flex,row,space-between)
+            align-items: center
+            padding: 28px 0  22px
+            @include media-max(1400px)
+                padding: 20px 0  
+            @include media-max(1200px)
+                padding-bottom: 16px
+            @include media-max(1024px)
+                padding-bottom: 12px
+            @include media-max(450px)
+                flex-direction: column
+                padding: 26px 0 28px
+            #logo-sec 
+                // @include media-max(650px)
+                //     padding: 50px 0 80px
+                // @include media-max(450px)
+                //     padding: 30px 0 60px
+                // @include media-max(340px)
+                //     padding: 20px 0 50px
+                a img 
+                    width: 380px
+                    @include media-max(1400px)
+                        width: 360px
+                    @include media-max(1200px)
+                        width: 324px
+                    @include media-max(1024px)
+                        width: 295px
+                    @include media-max(800px)
+                        width: 244px
+                    @include media-max(650px)
+                        width: 200px
+                    @include media-max(450px)
+                        width: 190px
+                        padding-bottom: 16px
+                    // @include media-max(340px)
+                    //     width: 85vw 
+            #callnow 
+                a 
+                    text-decoration: none
+                    background: $blue
+                    background-color: $blue
+                    color: $white
+                    font-size: 2rem
+                    font-weight: 600
+                    padding: 10px 36px
+                    @include media-max(1400px)
+                        font-size: 1.7rem
+                    @include media-max(1200px)
+                        font-size: 1.5rem
+                    @include media-max(1024px)
+                        font-size: 1.2rem
+                    @include media-max(800px)
+                        font-size: .9rem
+                    @include media-max(650px)
+                        font-size: .7rem
+                    @include media-max(450px)
+                        font-size: 14px
+                        padding: 8px 16px
+                    // @include media-max(340px)
+                    //     font-size: .8rem
+    // Main Styles...
+    main
+        // Sign Up Styles...
+        #sign-up
+            background: $white
+            background-color: $white
+            position: relative
+            @include flex(flex, column)
+            justify-content: center
+            // Children Styles...
+            #children
+                @include flex(flex,row)
+                height: 78vh
+                @include media-max(1100px)
+                    height: 65vh
+                @include media-max(1024px)
+                    height: 55vh
+                @include media-max(650px)
+                    flex-direction: column-reverse
+                    height: inherit
+                // @include media-window-max(1024px,1366px)
+                //     height: 34vh
+                // @include media-window-max(800px,1280px)
+                //     height: 37vh
+                // @include media-window-max(768px,1024px)
+                //     height: 43vh
+                #kids-sec
+                    background-image: url('../images/kids.jpg')
+                    background-size: cover
+                    background-position: center center
+                    background-repeat: no-repeat      
+                    width: 53%
+                    text-align: right
+                    @include media-max(800px)
+                        width: 50%  
+                    @include media-max(650px)
+                        width: 100%
+                        height: 64vh
+                    @include media-max(450px)
+                        height: 55vh
+                    img 
+                        height: 100%
+                    .desktop
+                        @include media-max(650px)
+                            display: none
+                    .mobile
+                        display: none
+                        @include media-max(650px)
+                            display: block
+                            width: 100%
+                            height: fit-content
+                            align-self: end
+                            -moz-transform: scale(-1, -1)
+                            -o-transform: scale(-1, -1)
+                            -webkit-transform: scale(-1, -1)
+                            transform: scale(-1, -1)
+                #form-sec
+                    width: 47%
+                    background: $orange
+                    background-color: $orange
+                    @include media-max(800px)
+                        width: 50%
+                    @include media-max(650px)
+                        width: 100%
+                    form 
+                        height: 100%
+                        @include fullFlex(flex, column, center)
+                        @include center(72%, 0 auto)
+                        color: $white
+                        @include media-max(1400px)
+                            width: 80%
+                            margin-right: 14%
+                            padding: 20px 0
+                        @include media-max(800px)
+                            @include center(75%, 0 auto)
+                            padding: 36px 0
+                        @include media-max(650px)
+                            width: 56%
+                        h3
+                            font-size: 2.5vw
+                            font-weight: 500
+                            padding-bottom: 20px
+                            @include media-max(800px)
+                                font-size: 2.8vw
+                                padding-bottom: 1vh
+                            @include media-max(650px)
+                                font-size: 4.2vw
+                                padding-top: .2vh
+                                padding-bottom: 0
+                        #names
+                            @include fullFlex(flex, row, space-between)
+                            @include media-max(800px)
+                                flex-direction: column
+                            input[type="text"]
+                                width: 42%
+                                @include placeholder-color($white)
+                                font-size: 1.4vw
+                                color: $white
+                                background: transparent
+                                background-color: transparent
+                                padding: 8px 14px
+                                border: 2px solid $white
+                                &:focus 
+                                    outline: none 
+                                @include media-max(1100px)
+                                    width: 39%
+                                @include media-max(800px)
+                                    font-size: 2vw
+                                    margin: 12px 0 0 
+                                    width: -webkit-fill-available
+                                @include media-max(650px)
+                                    width: inherit
+                                    font-size: 3vw
+                        input[type="email"]
+                            font-size: 1.4vw
+                            color: $white
+                            background: transparent
+                            background-color: transparent
+                            padding: 8px 14px
+                            border: 2px solid $white
+                            @include placeholder-color($white)
+                            margin: 22px 0 16px
+                            &:focus 
+                                outline: none 
+                            @include media-max(800px)
+                                font-size: 2vw 
+                                margin: 12px 0 12px
+                            @include media-max(650px)
+                                font-size: 3vw
+                        #phone-date
+                            @include fullFlex(flex, row, space-between)
+                            align-items: center
+                            @include media-max(800px)
+                                flex-direction: column
+                            input[type="text"],input[type="tel"]
+                                font-size: 1.4vw
+                                color: $white
+                                background: transparent
+                                background-color: transparent
+                                padding: 8px 14px
+                                border: 2px solid $white
+                                @include placeholder-color($white)
+                                &:focus 
+                                    outline: none 
+                                @include media-max(800px)
+                                    font-size: 2vw
+                                @include media-max(650px)
+                                    font-size: 3vw
+                            input[type="tel"]
+                                width: 52%
+                                @include media-max(1400px)
+                                    width: 50%
+                                @include media-max(1100px)
+                                    width: 45%
+                                @include media-max(1024px)
+                                    width: 46%
+                                @include media-max(800px)
+                                    width: -webkit-fill-available
+                            .date
+                                @include fullFlex(flex, row, space-between)
+                                align-items: center
+                                @include media-max(800px)
+                                    width: -webkit-fill-available
+                                    margin-top: 8px
+                                input[type="text"]
+                                    @include center(64%, 0 auto)
+                                    @include media-max(1100px)
+                                        width: 47%
+                                    @include media-max(1024px)
+                                        width: 50%
+                                    @include media-max(800px)
+                                        width: 70%
+                                        margin-left: 0
+                                    @include media-max(650px)
+                                        width: -webkit-fill-available
+                                        margin: 12px 12px 0 0
+                                a img 
+                                    width: 2.7vw
+                                    padding-top: 6px
+                                    cursor: pointer
+                                    @include media-max(800px)
+                                        width: 4.7vw
+                                    @include media-max(650px)
+                                        width: 6.5vw
+                                        padding-top: 12px
+                        input[type="submit"]
+                            width: 40%
+                            color: $blue
+                            background: $white
+                            background-color: $white
+                            border: none
+                            text-transform: uppercase
+                            font-weight: 500
+                            font-size: 1.4vw
+                            margin-top: 22px
+                            padding: 10px 0
+                            @include media-max(800px)
+                                font-size: 2vw
+                                @include center(45%, 0 auto)
+                                margin-top: 16px
+                            @include media-max(650px)
+                                margin-top: 16px
+                                font-size: 3.4vw
+                            @include media-max(450px)
+                                margin-top: 12pxpx
+                                font-size: 3.8vw
+            #happy-smiles-graphic
+                width: 26vw
+                position: absolute
+                left: -50px
+                margin-bottom: 150px
+                // @include media-window-max(1366px,768px )
+                //     margin-bottom: 36px
+                // @include media-window-max(1024px,1366px)
+                //     margin-bottom: 90px
+                // @include media-window-max(800px,1280px)
+                //     margin-bottom: -2px
+                // @include media-window-max(768px,1024px)
+                //     margin-bottom: 0
+                @include media-height-max(768px)
+                    width: 25vw
+                @include media-max(1500px)
+                    margin-bottom: 110px
+                    width: 24vw 
+                @include media-max(1300px)
+                    margin-bottom: 50px
+                @include media-max(1100px)
+                    width: 25vw
+                    margin-bottom: 130px
+                @include media-max(1024px)
+                    margin-bottom: 180px
+                @include media-max(950px)
+                    width: 26vw
+                    margin-bottom: 19vh
+                @include media-max(800px)
+                    left: -32px
+                    width: 22vw
+                    margin-bottom: 9vh
+                @include media-max(720px)
+                    margin-bottom: 5vh
+                @include media-max(650px)
+                    width: 43vw
+                    margin-bottom: 0
+                @include media-max(580px)
+                    margin-bottom: -50px
+                @include media-max(510px)
+                    margin-bottom: -100px
+                @include media-max(450px)
+                    margin-bottom: 24px
+                    width: 45vw
+                @include media-max(420px)
+                    margin-bottom: -5px
+                    left: -26px
+                @include media-max(390px)
+                    margin-bottom: -60px
+            // Pediatric Dentistry Styles...
+            #pediatric-dentistry
+                .container
+                    @include center(87%, 0 auto)
+                    @include fullFlex(flex, row,space-between)
+                    align-items: center
+                    padding: 65px 0
+                    @include media-max(650px)
+                        flex-direction: column
+                        justify-content: center
+                    #text-sec 
+                        flex-grow: 1
+                        padding-left: 72px
+                        padding-right: 100px
+                        @include media-max(1100px)
+                            padding-right: 50px
+                        @include media-max(1024px)
+                            padding-left: 26px 
+                        @include media-max(750px)
+                            padding-right: 30px 
+                        @include media-max(650px)
+                            padding: 36px 0 32px
+                        h2 
+                            font-size: 2.5vw
+                            font-weight: 600
+                            color: $blue
+                            padding-bottom: 16px
+                            @include media-max(1100px)
+                                font-size: 2.8vw
+                                padding-bottom: 6px
+                            @include media-max(900px)
+                                font-size: 2.87vw
+                            @include media-max(650px)
+                                text-align: center
+                                font-size: 4vw
+                            @include media-max(650px)
+                                font-size: 4.4vw
+                                padding-bottom: 16px
+                            @include media-max(450px)
+                                font-size: 4.6vw
+                            @include media-max(350px)
+                                font-size: 4.8vw
+                        p 
+                            font-size: 1.6vw
+                            font-weight: 500
+                            color: $black
+                            line-height: 1.6
+                            @include media-max(1100px)
+                                font-size: 1.7vw
+                            @include media-max(900px)
+                                font-size: 1.9vw
+                            @include media-max(650px)
+                                font-size: 3vw
+                                @include center(86%, 0 auto)
+                            @include media-max(450px)
+                                font-size: 3.5vw
+                            @include media-max(350px)
+                                font-size: 4vw
+                    #img-sec 
+                        text-align: right
+                        img 
+                            width: 28vw
+                            @include media-max(1100px)
+                                width: 32vw
+                            @include media-max(650px)
+                                width: 56vw
+                            @include media-max(450px)
+                                width: 65vw
+        // Choose Us Styles...
+        #choose-us 
+            position: relative      
+            // Why Styles...
+            #why 
+                background: $orange
+                background-color: $orange
+                .container
+                    @include center(87%, 0 auto)
+                    text-align: center
+                    padding: 26px 0
+                    h1
+                        font-size: 2.4vw
+                        font-weight: 600
+                        color: $white
+                        letter-spacing: 1px
+                        @include media-max(1200px)
+                            font-size: 3vw
+                        @include media-max(650px)
+                            font-size: 5vw
+            // Reasons Styles...
+            #reasons 
+                .container
+                    @include center(87%, 0 auto)
+                    @include fullFlex(flex,row,space-around)
+                    align-items: center
+                    padding: 70px 60px 
+                    @include media-max(1200px)
+                        padding: 56px 36px
+                    @include media-max(1024px)
+                        padding: 56px 0
+                    @include media-max(650px)
+                        flex-direction: column
+                        justify-content: center
+                    @include media-max(450px)
+                        padding: 34px 0
+                    .reason 
+                        text-align: center
+                        @include flex(flex,column )
+                        align-items: center
+                        @include media-max(650px)
+                            padding: 28px 0
+                        @include media-max(450px)
+                            padding: 16px 0
+                        img
+                            width: 7.875vw
+                            @include media-max(1200px)
+                                width: 8.4vw
+                            @include media-max(1024px)
+                                width: 9.6vw
+                            @include media-max(650px)
+                                width: 20vw
+                        p
+                            font-size: 1.5vw
+                            font-weight: 500
+                            line-height: 1.1
+                            padding-top: 10px 
+                            @include media-max(1200px)
+                                font-size: 1.7vw
+                            @include media-max(1024px)
+                                font-size: 2vw
+                            @include media-max(650px)
+                                font-size: 4.6vw
+                                font-weight: 400
+                                padding-top: 18px
+            // Doctor Styles...
+            #doctor
+                display: none
+                background: $blue
+                background-color: $blue
+                .container
+                    @include center(78%, 0 auto)
+                    @include flex(flex,row)
+                    align-items: center
+                    padding: 64px 0 30px
+                    #text-sec
+                        width: 60%
+                        h2 
+                            font-size: 48px
+                            font-weight: 600
+                            color: $white
+                            padding-bottom: 8px
+                        p 
+                            font-size: 24px
+                            font-weight: 500
+                            color: $white
+                            line-height: 1.6
+                            padding-bottom: 36px
+                    #img-sec
+                        img 
+                            position: absolute
+                            right: 0
+                            bottom: 42px
+                            width: 504px
+            // Board Certified Styles...
+            #board-certified 
+                display: none
+                background-color: $white
+                background: $white
+                .container
+                    @include center(87%, 0 auto)
+                    padding: 26px 0 26px 80px
+                    img 
+                        width: 640px
+        // Schedule Styles...
+        #schedule 
+            background: $purple
+            background-color: $purple
+            .container
+                @include center(87%, 0 auto)
+                text-align: center
+                padding: 80px 0
+                @include media-max(1200px)
+                    padding: 60px
+                @include media-max(1024px)
+                    padding: 50px 0  
+                @include media-max(650px)
+                    padding: 40px 0  
+                @include media-max(450px)
+                    padding: 38px 0               
+                h1
+                    font-size: 2.4vw
+                    font-weight: 600
+                    color: $white
+                    padding-bottom: 24px 
+                    @include media-max(1200px)
+                        font-size: 3vw
+                    @include media-max(650px)
+                        font-size: 5vw
+                        padding-bottom: 18px
+                button
+                    font-size: 1.6vw
+                    color: $purple
+                    background: $white
+                    background-color: $white
+                    border: none
+                    font-weight: 600
+                    padding: 12px 20px
+                    cursor: pointer
+                    @include media-max(800px)
+                        font-size: 1.8vw
+                    @include media-max(650px)
+                        font-size: 2.8vw
+                    @include media-max(450px)
+                        font-size: 3vw
+                        padding: 10px 18px
+                        
+    // Footer Styles...
+    footer 
+        @include flex(flex,row)
+        @include media-max(900px)
+            flex-direction: column
+        #map-sec
+            width: 50%
+            @include media-max(900px)
+                width: 100%
+            iframe
+                height: 100%
+                @include media-max(900px)
+                    height: 56vh
+                @include media-max(450px)
+                    height: 46vh
+        #info-sec
+            width: 50%
+            padding: 48px 80px 0
+            @include media-max(900px)
+                width: 100%
+                @include fullFlex(flex,row ,space-between)
+                align-items: center
+                padding-left: 62px
+                padding-right: 62px
+            @include media-max(650px)
+                flex-direction: column
+                justify-content: center
+            a img 
+                width: 28vw  
+                margin-bottom: 28px
+                @include media-max(900px)
+                    width: 40vw
+                @include media-max(650px)
+                    width: 60vw
+                @include media-max(450px)
+                    width: 66vw
+            .container
+                p 
+                    font-size: 1.7vw
+                    line-height: 1
+                    padding-bottom: 12px
+                    @include media-max(900px)
+                        padding-bottom: 6px
+                        font-size: 2.5vw
+                        line-height: 1.3
+                    @include media-max(650px)
+                        text-align: center
+                        font-size: 4vw
+                    @include media-max(450px)
+                        font-size: 5vw
+                #icons
+                    @include flex(flex,row)
+                    padding-top: 12px 
+                    @include media-max(650px)
+                        justify-content: space-between
+                        @include center(65%, 0 auto )
+                        padding-top: 18px
+                    a 
+                        width: fit-content
+                        margin-right: 34px
+                        @include media-max(650px)
+                            margin: 0
+                    img 
+                        width: 2.5vw
+                        @include media-max(900px)
+                            width: 4vw
+                        @include media-max(650px)
+                            width: 8vw
+                        @include media-max(450px)
+                            width: 10vw
+                
+             
+            
+            

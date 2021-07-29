@@ -1,0 +1,1280 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+}
+
+body header .container {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0  22px;
+}
+
+@media screen and (max-width: 1400px) {
+  body header .container {
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body header .container {
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body header .container {
+    padding-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body header .container {
+    flex-direction: column;
+    padding: 26px 0 28px;
+  }
+}
+
+body header .container #logo-sec a img {
+  width: 380px;
+}
+
+@media screen and (max-width: 1400px) {
+  body header .container #logo-sec a img {
+    width: 360px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body header .container #logo-sec a img {
+    width: 324px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body header .container #logo-sec a img {
+    width: 295px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body header .container #logo-sec a img {
+    width: 244px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body header .container #logo-sec a img {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body header .container #logo-sec a img {
+    width: 190px;
+    padding-bottom: 16px;
+  }
+}
+
+body header .container #callnow a {
+  text-decoration: none;
+  background: #3A86FF;
+  background-color: #3A86FF;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 10px 36px;
+}
+
+@media screen and (max-width: 1400px) {
+  body header .container #callnow a {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body header .container #callnow a {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body header .container #callnow a {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body header .container #callnow a {
+    font-size: .9rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body header .container #callnow a {
+    font-size: .7rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body header .container #callnow a {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+body main #sign-up {
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+body main #sign-up #children {
+  display: flex;
+  flex-direction: row;
+  height: 78vh;
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #children {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #sign-up #children {
+    height: 55vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children {
+    flex-direction: column-reverse;
+    height: inherit;
+  }
+}
+
+body main #sign-up #children #kids-sec {
+  background-image: url("../images/kids.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 53%;
+  text-align: right;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #kids-sec {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #kids-sec {
+    width: 100%;
+    height: 64vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #sign-up #children #kids-sec {
+    height: 55vh;
+  }
+}
+
+body main #sign-up #children #kids-sec img {
+  height: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #kids-sec .desktop {
+    display: none;
+  }
+}
+
+body main #sign-up #children #kids-sec .mobile {
+  display: none;
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #kids-sec .mobile {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    align-self: end;
+    transform: scale(-1, -1);
+  }
+}
+
+body main #sign-up #children #form-sec {
+  width: 47%;
+  background: #ED7F01;
+  background-color: #ED7F01;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec {
+    width: 100%;
+  }
+}
+
+body main #sign-up #children #form-sec form {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 72%;
+  margin: 0 auto;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 1400px) {
+  body main #sign-up #children #form-sec form {
+    width: 80%;
+    margin-right: 14%;
+    padding: 20px 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form {
+    width: 75%;
+    margin: 0 auto;
+    padding: 36px 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form {
+    width: 56%;
+  }
+}
+
+body main #sign-up #children #form-sec form h3 {
+  font-size: 2.5vw;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form h3 {
+    font-size: 2.8vw;
+    padding-bottom: 1vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form h3 {
+    font-size: 4.2vw;
+    padding-top: .2vh;
+    padding-bottom: 0;
+  }
+}
+
+body main #sign-up #children #form-sec form #names {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #names {
+    flex-direction: column;
+  }
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"] {
+  width: 42%;
+  font-size: 1.4vw;
+  color: #FFFFFF;
+  background: transparent;
+  background-color: transparent;
+  padding: 8px 14px;
+  border: 2px solid #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]::placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]:-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #names input[type="text"]:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #children #form-sec form #names input[type="text"] {
+    width: 39%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #names input[type="text"] {
+    font-size: 2vw;
+    margin: 12px 0 0;
+    width: -webkit-fill-available;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form #names input[type="text"] {
+    width: inherit;
+    font-size: 3vw;
+  }
+}
+
+body main #sign-up #children #form-sec form input[type="email"] {
+  font-size: 1.4vw;
+  color: #FFFFFF;
+  background: transparent;
+  background-color: transparent;
+  padding: 8px 14px;
+  border: 2px solid #FFFFFF;
+  margin: 22px 0 16px;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]::placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]:-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form input[type="email"]:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form input[type="email"] {
+    font-size: 2vw;
+    margin: 12px 0 12px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form input[type="email"] {
+    font-size: 3vw;
+  }
+}
+
+body main #sign-up #children #form-sec form #phone-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #phone-date {
+    flex-direction: column;
+  }
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"], body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+  font-size: 1.4vw;
+  color: #FFFFFF;
+  background: transparent;
+  background-color: transparent;
+  padding: 8px 14px;
+  border: 2px solid #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]::placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]::placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]::-webkit-input-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]::-webkit-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]:-moz-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]:-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]::-moz-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]::-moz-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]:-ms-input-placeholder, body main #sign-up #children #form-sec form #phone-date input[type="tel"]:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="text"]:focus, body main #sign-up #children #form-sec form #phone-date input[type="tel"]:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #phone-date input[type="text"], body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form #phone-date input[type="text"], body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+    font-size: 3vw;
+  }
+}
+
+body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+  width: 52%;
+}
+
+@media screen and (max-width: 1400px) {
+  body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
+    width: -webkit-fill-available;
+  }
+}
+
+body main #sign-up #children #form-sec form #phone-date .date {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #phone-date .date {
+    width: -webkit-fill-available;
+    margin-top: 8px;
+  }
+}
+
+body main #sign-up #children #form-sec form #phone-date .date input[type="text"] {
+  width: 64%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #children #form-sec form #phone-date .date input[type="text"] {
+    width: 47%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #sign-up #children #form-sec form #phone-date .date input[type="text"] {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #phone-date .date input[type="text"] {
+    width: 70%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form #phone-date .date input[type="text"] {
+    width: -webkit-fill-available;
+    margin: 12px 12px 0 0;
+  }
+}
+
+body main #sign-up #children #form-sec form #phone-date .date a img {
+  width: 2.7vw;
+  padding-top: 6px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form #phone-date .date a img {
+    width: 4.7vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form #phone-date .date a img {
+    width: 6.5vw;
+    padding-top: 12px;
+  }
+}
+
+body main #sign-up #children #form-sec form input[type="submit"] {
+  width: 40%;
+  color: #3A86FF;
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1.4vw;
+  margin-top: 22px;
+  padding: 10px 0;
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #children #form-sec form input[type="submit"] {
+    font-size: 2vw;
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form input[type="submit"] {
+    margin-top: 16px;
+    font-size: 3.4vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #sign-up #children #form-sec form input[type="submit"] {
+    margin-top: 12pxpx;
+    font-size: 3.8vw;
+  }
+}
+
+body main #sign-up #happy-smiles-graphic {
+  width: 26vw;
+  position: absolute;
+  left: -50px;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-height: 768px) {
+  body main #sign-up #happy-smiles-graphic {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: 110px;
+    width: 24vw;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #happy-smiles-graphic {
+    width: 25vw;
+    margin-bottom: 130px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: 180px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  body main #sign-up #happy-smiles-graphic {
+    width: 26vw;
+    margin-bottom: 19vh;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body main #sign-up #happy-smiles-graphic {
+    left: -32px;
+    width: 22vw;
+    margin-bottom: 9vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: 5vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #happy-smiles-graphic {
+    width: 43vw;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: -50px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: -100px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: 24px;
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: -5px;
+    left: -26px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  body main #sign-up #happy-smiles-graphic {
+    margin-bottom: -60px;
+  }
+}
+
+body main #sign-up #pediatric-dentistry .container {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 65px 0;
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #pediatric-dentistry .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+body main #sign-up #pediatric-dentistry .container #text-sec {
+  flex-grow: 1;
+  padding-left: 72px;
+  padding-right: 100px;
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec {
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec {
+    padding-left: 26px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec {
+    padding-right: 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec {
+    padding: 36px 0 32px;
+  }
+}
+
+body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  color: #3A86FF;
+  padding-bottom: 16px;
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+    font-size: 2.8vw;
+    padding-bottom: 6px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+    font-size: 2.87vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+    text-align: center;
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+    font-size: 4.4vw;
+    padding-bottom: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+    font-size: 4.6vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+    font-size: 4.8vw;
+  }
+}
+
+body main #sign-up #pediatric-dentistry .container #text-sec p {
+  font-size: 1.6vw;
+  font-weight: 500;
+  color: #000000;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec p {
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec p {
+    font-size: 1.9vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec p {
+    font-size: 3vw;
+    width: 86%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec p {
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body main #sign-up #pediatric-dentistry .container #text-sec p {
+    font-size: 4vw;
+  }
+}
+
+body main #sign-up #pediatric-dentistry .container #img-sec {
+  text-align: right;
+}
+
+body main #sign-up #pediatric-dentistry .container #img-sec img {
+  width: 28vw;
+}
+
+@media screen and (max-width: 1100px) {
+  body main #sign-up #pediatric-dentistry .container #img-sec img {
+    width: 32vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #pediatric-dentistry .container #img-sec img {
+    width: 56vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #sign-up #pediatric-dentistry .container #img-sec img {
+    width: 65vw;
+  }
+}
+
+body main #choose-us {
+  position: relative;
+}
+
+body main #choose-us #why {
+  background: #ED7F01;
+  background-color: #ED7F01;
+}
+
+body main #choose-us #why .container {
+  width: 87%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 26px 0;
+}
+
+body main #choose-us #why .container h1 {
+  font-size: 2.4vw;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #choose-us #why .container h1 {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #why .container h1 {
+    font-size: 5vw;
+  }
+}
+
+body main #choose-us #reasons .container {
+  width: 87%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 70px 60px;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #choose-us #reasons .container {
+    padding: 56px 36px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #choose-us #reasons .container {
+    padding: 56px 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #reasons .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #choose-us #reasons .container {
+    padding: 34px 0;
+  }
+}
+
+body main #choose-us #reasons .container .reason {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #reasons .container .reason {
+    padding: 28px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #choose-us #reasons .container .reason {
+    padding: 16px 0;
+  }
+}
+
+body main #choose-us #reasons .container .reason img {
+  width: 7.875vw;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #choose-us #reasons .container .reason img {
+    width: 8.4vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #choose-us #reasons .container .reason img {
+    width: 9.6vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #reasons .container .reason img {
+    width: 20vw;
+  }
+}
+
+body main #choose-us #reasons .container .reason p {
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 1.1;
+  padding-top: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #choose-us #reasons .container .reason p {
+    font-size: 1.7vw;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #choose-us #reasons .container .reason p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #reasons .container .reason p {
+    font-size: 4.6vw;
+    font-weight: 400;
+    padding-top: 18px;
+  }
+}
+
+body main #choose-us #doctor {
+  display: none;
+  background: #3A86FF;
+  background-color: #3A86FF;
+}
+
+body main #choose-us #doctor .container {
+  width: 78%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 64px 0 30px;
+}
+
+body main #choose-us #doctor .container #text-sec {
+  width: 60%;
+}
+
+body main #choose-us #doctor .container #text-sec h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding-bottom: 8px;
+}
+
+body main #choose-us #doctor .container #text-sec p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  line-height: 1.6;
+  padding-bottom: 36px;
+}
+
+body main #choose-us #doctor .container #img-sec img {
+  position: absolute;
+  right: 0;
+  bottom: 42px;
+  width: 504px;
+}
+
+body main #choose-us #board-certified {
+  display: none;
+  background-color: #FFFFFF;
+  background: #FFFFFF;
+}
+
+body main #choose-us #board-certified .container {
+  width: 87%;
+  margin: 0 auto;
+  padding: 26px 0 26px 80px;
+}
+
+body main #choose-us #board-certified .container img {
+  width: 640px;
+}
+
+body main #schedule {
+  background: #8338EC;
+  background-color: #8338EC;
+}
+
+body main #schedule .container {
+  width: 87%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 80px 0;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #schedule .container {
+    padding: 60px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #schedule .container {
+    padding: 50px 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #schedule .container {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #schedule .container {
+    padding: 38px 0;
+  }
+}
+
+body main #schedule .container h1 {
+  font-size: 2.4vw;
+  font-weight: 600;
+  color: #FFFFFF;
+  padding-bottom: 24px;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #schedule .container h1 {
+    font-size: 3vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #schedule .container h1 {
+    font-size: 5vw;
+    padding-bottom: 18px;
+  }
+}
+
+body main #schedule .container button {
+  font-size: 1.6vw;
+  color: #8338EC;
+  background: #FFFFFF;
+  background-color: #FFFFFF;
+  border: none;
+  font-weight: 600;
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  body main #schedule .container button {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #schedule .container button {
+    font-size: 2.8vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #schedule .container button {
+    font-size: 3vw;
+    padding: 10px 18px;
+  }
+}
+
+body footer {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 900px) {
+  body footer {
+    flex-direction: column;
+  }
+}
+
+body footer #map-sec {
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  body footer #map-sec {
+    width: 100%;
+  }
+}
+
+body footer #map-sec iframe {
+  height: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  body footer #map-sec iframe {
+    height: 56vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body footer #map-sec iframe {
+    height: 46vh;
+  }
+}
+
+body footer #info-sec {
+  width: 50%;
+  padding: 48px 80px 0;
+}
+
+@media screen and (max-width: 900px) {
+  body footer #info-sec {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 62px;
+    padding-right: 62px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body footer #info-sec {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+body footer #info-sec a img {
+  width: 28vw;
+  margin-bottom: 28px;
+}
+
+@media screen and (max-width: 900px) {
+  body footer #info-sec a img {
+    width: 40vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body footer #info-sec a img {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body footer #info-sec a img {
+    width: 66vw;
+  }
+}
+
+body footer #info-sec .container p {
+  font-size: 1.7vw;
+  line-height: 1;
+  padding-bottom: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  body footer #info-sec .container p {
+    padding-bottom: 6px;
+    font-size: 2.5vw;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body footer #info-sec .container p {
+    text-align: center;
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body footer #info-sec .container p {
+    font-size: 5vw;
+  }
+}
+
+body footer #info-sec .container #icons {
+  display: flex;
+  flex-direction: row;
+  padding-top: 12px;
+}
+
+@media screen and (max-width: 650px) {
+  body footer #info-sec .container #icons {
+    justify-content: space-between;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 18px;
+  }
+}
+
+body footer #info-sec .container #icons a {
+  width: fit-content;
+  margin-right: 34px;
+}
+
+@media screen and (max-width: 650px) {
+  body footer #info-sec .container #icons a {
+    margin: 0;
+  }
+}
+
+body footer #info-sec .container #icons img {
+  width: 2.5vw;
+}
+
+@media screen and (max-width: 900px) {
+  body footer #info-sec .container #icons img {
+    width: 4vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body footer #info-sec .container #icons img {
+    width: 8vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body footer #info-sec .container #icons img {
+    width: 10vw;
+  }
+}
