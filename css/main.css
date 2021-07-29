@@ -975,6 +975,7 @@ body main #choose-us #doctor .container {
 @media screen and (max-width: 1024px) {
   body main #choose-us #doctor .container {
     padding-top: 36px;
+    width: 83%;
   }
 }
 
@@ -987,6 +988,12 @@ body main #choose-us #doctor .container {
 
 body main #choose-us #doctor .container #text-sec {
   width: 60%;
+}
+
+@media screen and (max-width: 992px) {
+  body main #choose-us #doctor .container #text-sec {
+    width: 63%;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -1109,7 +1116,7 @@ body main #choose-us #doctor .container #img-sec img {
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 768px) {
   body main #choose-us #doctor .container #img-sec img {
     width: 40vh;
   }

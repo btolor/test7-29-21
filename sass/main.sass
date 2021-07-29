@@ -450,11 +450,14 @@ body
                     padding: 64px 0 30px
                     @include media-max(1024px)
                         padding-top: 36px
+                        width: 83%
                     @include media-max(650px)
                         flex-direction: column
                         padding-top: 50px
                     #text-sec
                         width: 60%
+                        @include media-max($laptop)
+                            width: 63%
                         @include media-max(650px)
                             width: 100%
                         h2 
@@ -499,10 +502,6 @@ body
                             right: 0
                             bottom: 42px
                             width: 57vh
-                            // @media only screen and (max-height: 1366px) and (max-width: 1024px)
-                            //     width: 31vh
-                            // @media only screen and (max-height: 1280px) and (max-width: 800px)
-                            //     width: 24vh
                             @include media-max(1200px)
                                 bottom: 80px
                                 width: 50vh
@@ -510,21 +509,22 @@ body
                                 width: 47vh
                             @include media-max(900px)
                                 width: 44vh
-                            @include media-max(850px)
+                            @include media-max(768px)
                                 width: 40vh
                             @include media-max(650px)
                                 width: 48vw
                                 bottom: 100px
                             @include media-max(560px)
-                                 width: 52vw
-                                 bottom: 92px
+                                width: 52vw
+                                bottom: 92px
                             @include media-max(440px)
-                                 width: 54vw
-                                 bottom: 78px
+                                width: 54vw
+                                bottom: 78px
                             @include media-max(378px)
-                                 width: 65vw
+                                width: 65vw
                             @include media-max(360px)
-                                 width: 62vw
+                                width: 62vw
+                             
             // Board Certified Styles...
             #board-certified 
                 background-color: $white
