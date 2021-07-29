@@ -205,7 +205,7 @@ body main #sign-up #children #kids-sec .mobile {
   body main #sign-up #children #kids-sec .mobile {
     display: block;
     width: 100%;
-    height: fit-content;
+    height: min-content;
     align-self: end;
     transform: scale(-1, -1);
   }
