@@ -199,7 +199,7 @@ body main #sign-up #children #kids-sec .mobile {
   body main #sign-up #children #kids-sec .mobile {
     display: block;
     width: 100%;
-    height: min-content;
+    height: 5%;
     align-self: end;
     transform: scale(-1, -1);
   }
