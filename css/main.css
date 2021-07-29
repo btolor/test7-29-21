@@ -750,7 +750,7 @@ body main #sign-up #pediatric-dentistry .container #text-sec h2 {
 }
 
 body main #sign-up #pediatric-dentistry .container #text-sec p {
-  font-size: 20px;
+  font-size: 22px;
   color: #000000;
   line-height: 1.6;
 }
@@ -818,21 +818,33 @@ body main #choose-us #why .container {
 }
 
 body main #choose-us #why .container h1 {
-  font-size: 2.4vw;
+  font-size: 2.8vw;
   font-weight: 600;
   color: #FFFFFF;
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   body main #choose-us #why .container h1 {
-    font-size: 3vw;
+    font-size: 2.87vw;
   }
 }
 
 @media screen and (max-width: 650px) {
   body main #choose-us #why .container h1 {
-    font-size: 5vw;
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #choose-us #why .container h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body main #choose-us #why .container h1 {
+    font-size: 26px;
   }
 }
 
@@ -940,7 +952,6 @@ body main #choose-us #reasons .container .reason p {
 }
 
 body main #choose-us #doctor {
-  display: none;
   background: #3A86FF;
   background-color: #3A86FF;
 }
@@ -954,36 +965,172 @@ body main #choose-us #doctor .container {
   padding: 64px 0 30px;
 }
 
+@media screen and (max-width: 1024px) {
+  body main #choose-us #doctor .container {
+    padding-top: 36px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #doctor .container {
+    flex-direction: column;
+  }
+}
+
 body main #choose-us #doctor .container #text-sec {
   width: 60%;
 }
 
+@media screen and (max-width: 650px) {
+  body main #choose-us #doctor .container #text-sec {
+    width: 100%;
+  }
+}
+
 body main #choose-us #doctor .container #text-sec h2 {
-  font-size: 48px;
+  font-size: 2.8vw;
   font-weight: 600;
   color: #FFFFFF;
   padding-bottom: 8px;
 }
 
+@media screen and (max-width: 900px) {
+  body main #choose-us #doctor .container #text-sec h2 {
+    font-size: 2.87vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #doctor .container #text-sec h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #choose-us #doctor .container #text-sec h2 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body main #choose-us #doctor .container #text-sec h2 {
+    font-size: 26px;
+  }
+}
+
 body main #choose-us #doctor .container #text-sec p {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 500;
   color: #FFFFFF;
   line-height: 1.6;
-  padding-bottom: 36px;
+  padding-bottom: 28px;
+}
+
+@media screen and (max-width: 1024px) {
+  body main #choose-us #doctor .container #text-sec p {
+    padding-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body main #choose-us #doctor .container #text-sec p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body main #choose-us #doctor .container #text-sec p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #doctor .container #text-sec p {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #doctor .container #img-sec {
+    margin-top: 52vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body main #choose-us #doctor .container #img-sec {
+    margin-top: 46vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #choose-us #doctor .container #img-sec {
+    margin-top: 40vh;
+  }
 }
 
 body main #choose-us #doctor .container #img-sec img {
   position: absolute;
   right: 0;
   bottom: 42px;
-  width: 504px;
+  width: 57vh;
+}
+
+@media screen and (max-width: 1200px) {
+  body main #choose-us #doctor .container #img-sec img {
+    bottom: 80px;
+    width: 50vh;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 47vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 44vh;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 40vh;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 48vw;
+    bottom: 100px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 52vw;
+    bottom: 92px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 54vw;
+    bottom: 78px;
+  }
+}
+
+@media screen and (max-width: 378px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 65vw;
+  }
 }
 
 body main #choose-us #board-certified {
   background-color: #FFFFFF;
   background: #FFFFFF;
-  display: none;
 }
 
 body main #choose-us #board-certified .container {
@@ -992,8 +1139,32 @@ body main #choose-us #board-certified .container {
   padding: 26px 0 26px 80px;
 }
 
+@media screen and (max-width: 1024px) {
+  body main #choose-us #board-certified .container {
+    padding-left: 0;
+  }
+}
+
 body main #choose-us #board-certified .container img {
-  width: 640px;
+  width: 40vw;
+}
+
+@media screen and (max-width: 992px) {
+  body main #choose-us #board-certified .container img {
+    width: 45vw;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #board-certified .container img {
+    width: 60vw;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body main #choose-us #board-certified .container img {
+    width: 65vw;
+  }
 }
 
 body main #schedule {
@@ -1033,22 +1204,34 @@ body main #schedule .container {
 }
 
 body main #schedule .container h1 {
-  font-size: 2.4vw;
+  font-size: 2.8vw;
   font-weight: 600;
   color: #FFFFFF;
   padding-bottom: 24px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
   body main #schedule .container h1 {
-    font-size: 3vw;
+    font-size: 2.87vw;
   }
 }
 
 @media screen and (max-width: 650px) {
   body main #schedule .container h1 {
-    font-size: 5vw;
+    font-size: 32px;
     padding-bottom: 18px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body main #schedule .container h1 {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  body main #schedule .container h1 {
+    font-size: 26px;
   }
 }
 
@@ -1065,13 +1248,7 @@ body main #schedule .container button {
 
 @media screen and (max-width: 800px) {
   body main #schedule .container button {
-    font-size: 1.8vw;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  body main #schedule .container button {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 

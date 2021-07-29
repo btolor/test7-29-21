@@ -352,7 +352,7 @@ body
                                 font-size: 26px
                                 padding-top: 0
                         p 
-                            font-size: 20px
+                            font-size: 22px
                             color: $black
                             line-height: 1.6
                             @include media-max(900px)
@@ -385,14 +385,18 @@ body
                     text-align: center
                     padding: 26px 0
                     h1
-                        font-size: 2.4vw
+                        font-size: 2.8vw
                         font-weight: 600
                         color: $white
                         letter-spacing: 1px
-                        @include media-max(1200px)
-                            font-size: 3vw
+                        @include media-max(900px)
+                            font-size: 2.87vw
                         @include media-max(650px)
-                            font-size: 5vw
+                            font-size: 32px
+                        @include media-max(450px)
+                            font-size: 24px
+                        @include media-max(350px)
+                            font-size: 26px
             // Reasons Styles...
             #reasons 
                 .container
@@ -440,7 +444,6 @@ body
                                 padding-top: 18px
             // Doctor Styles...
             #doctor
-                display: none
                 background: $blue
                 background-color: $blue
                 .container
@@ -448,35 +451,91 @@ body
                     @include flex(flex,row)
                     align-items: center
                     padding: 64px 0 30px
+                    @include media-max(1024px)
+                        padding-top: 36px
+                    @include media-max(650px)
+                        flex-direction: column
                     #text-sec
                         width: 60%
+                        @include media-max(650px)
+                            width: 100%
                         h2 
-                            font-size: 48px
+                            font-size: 2.8vw
                             font-weight: 600
                             color: $white
                             padding-bottom: 8px
+                            @include media-max(900px)
+                                font-size: 2.87vw
+                            @include media-max(650px)
+                                font-size: 32px
+                                text-align: center
+                            @include media-max(450px)
+                                font-size: 24px
+                            @include media-max(350px)
+                                font-size: 26px
                         p 
-                            font-size: 24px
+                            font-size: 20px
                             font-weight: 500
                             color: $white
                             line-height: 1.6
-                            padding-bottom: 36px
+                            padding-bottom: 28px
+                            @include media-max(1024px)
+                                padding-bottom: 18px
+                            @include media-max(900px)
+                                font-size: 18px
+                            @include media-max($tablet)
+                                font-size: 16px
+                            @include media-max(650px)
+                                font-size: 19px
                     #img-sec
+                        @include media-max(650px)
+                            margin-top: 52vh
+                        @include media-max(500px)
+                            margin-top: 46vh
+                        @include media-max(450px)
+                            margin-top: 40vh
                         img 
                             position: absolute
                             right: 0
                             bottom: 42px
-                            width: 504px
+                            width: 57vh
+                            @include media-max(1200px)
+                                bottom: 80px
+                                width: 50vh
+                            @include media-max(1024px)
+                                width: 47vh
+                            @include media-max(900px)
+                                width: 44vh
+                            @include media-max(850px)
+                                width: 40vh
+                            @include media-max(650px)
+                                width: 48vw
+                                bottom: 100px
+                            @include media-max(560px)
+                                 width: 52vw
+                                 bottom: 92px
+                            @include media-max(440px)
+                                 width: 54vw
+                                 bottom: 78px
+                            @include media-max(378px)
+                                 width: 65vw
             // Board Certified Styles...
             #board-certified 
                 background-color: $white
                 background: $white
-                display: none
                 .container
                     @include center(87%, 0 auto)
                     padding: 26px 0 26px 80px
+                    @include media-max(1024px)
+                        padding-left: 0
                     img 
-                        width: 640px
+                        width: 40vw
+                        @include media-max($laptop)
+                            width: 45vw
+                        @include media-max(650px)
+                            width: 60vw
+                        @include media-max(400px)
+                            width: 65vw
         // Schedule Styles...
         #schedule 
             background: $purple
@@ -494,15 +553,19 @@ body
                 @include media-max(450px)
                     padding: 38px 0               
                 h1
-                    font-size: 2.4vw
+                    font-size: 2.8vw
                     font-weight: 600
                     color: $white
                     padding-bottom: 24px 
-                    @include media-max(1200px)
-                        font-size: 3vw
+                    @include media-max(900px)
+                        font-size: 2.87vw
                     @include media-max(650px)
-                        font-size: 5vw
+                        font-size: 32px
                         padding-bottom: 18px
+                    @include media-max(450px)
+                        font-size: 24px
+                    @include media-max(350px)
+                        font-size: 26px
                 button
                     font-size: 1.6vw
                     color: $purple
@@ -513,9 +576,7 @@ body
                     padding: 12px 20px
                     cursor: pointer
                     @include media-max(800px)
-                        font-size: 1.8vw
-                    @include media-max(650px)
-                        font-size: 18px
+                        font-size: 20px
                     @include media-max(450px)
                         padding: 10px 18px
                         
