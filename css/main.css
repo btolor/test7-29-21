@@ -177,7 +177,6 @@ body main #sign-up #children #kids-sec {
 @media screen and (max-width: 650px) {
   body main #sign-up #children #kids-sec {
     width: 100%;
-    height: 90vh;
   }
 }
 
@@ -201,6 +200,7 @@ body main #sign-up #children #kids-sec .mobile {
     width: 100%;
     height: 6%;
     margin-top: -2px;
+    margin-bottom: 360px;
     align-self: end;
     transform: scale(-1, -1);
   }
@@ -1062,6 +1062,10 @@ body main #choose-us #doctor .container #text-sec p {
   body main #choose-us #doctor .container #img-sec {
     margin-top: 40vh;
   }
+}
+
+body main #choose-us #doctor .container #img-sec include media-max(360px) {
+  margin-top: 45vh;
 }
 
 body main #choose-us #doctor .container #img-sec img {
