@@ -177,6 +177,7 @@ body main #sign-up #children #kids-sec {
 @media screen and (max-width: 650px) {
   body main #sign-up #children #kids-sec {
     width: 100%;
+    height: 90vh;
   }
 }
 
