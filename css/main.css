@@ -160,7 +160,7 @@ body main #sign-up #children {
 }
 
 body main #sign-up #children #kids-sec {
-  background-image: url("../images/kids.jpg");
+  background-image: url("../images/min-img/kids-background.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
