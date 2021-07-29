@@ -177,7 +177,7 @@ body main #sign-up #children #kids-sec {
 @media screen and (max-width: 650px) {
   body main #sign-up #children #kids-sec {
     width: 100%;
-    height: 64vh;
+    height: 80vh;
   }
 }
 
@@ -1119,6 +1119,12 @@ body main #choose-us #doctor .container #img-sec img {
 @media screen and (max-width: 378px) {
   body main #choose-us #doctor .container #img-sec img {
     width: 65vw;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  body main #choose-us #doctor .container #img-sec img {
+    width: 62vw;
   }
 }
 
