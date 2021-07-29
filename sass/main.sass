@@ -279,24 +279,28 @@ body
                 margin: auto
                 @media screen and (max-width: 1100px)
                     width: 25vw
-                    bottom: 13%
+                    bottom: 17%
                 @media screen and (max-width: 1024px)
-                    bottom: 16%
+                    bottom: 22%
                     left: -40px
-                @media screen and (max-width: $tablet)
-                    width: 22vw
-                    bottom: 5%
+                @media screen and (max-width: 900px)
+                    width: 24vw
+                    bottom: 11%
                     left: -30px
+                @media screen and (max-width: $tablet)
+                    bottom: 2%
                 @media screen and (max-width: 650px)
-                    width: 45vw
-                    bottom: -4%
+                    width: 40vw
+                    bottom: 4%
+                @media screen and (max-width: 550px)
+                     bottom: 8%
                 @media screen and (max-width: $phone)
                     width: 43vw
-                    bottom: 0
+                    bottom: 24vh
                 @media screen and (max-width: 450px)
                     width: 46vw
                 @media screen and (max-width: 380px)
-                    bottom: 5%
+                    bottom: 15%
                     left: -26px
                 @media screen and (max-width: 350px)
                     width: 46vw
@@ -448,6 +452,7 @@ body
                         padding-top: 36px
                     @include media-max(650px)
                         flex-direction: column
+                        padding-top: 50px
                     #text-sec
                         width: 60%
                         @include media-max(650px)
