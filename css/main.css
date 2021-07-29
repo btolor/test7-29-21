@@ -257,7 +257,7 @@ body main #sign-up #children #form-sec form {
 
 @media screen and (max-width: 650px) {
   body main #sign-up #children #form-sec form {
-    width: 56%;
+    width: 80%;
   }
 }
 
@@ -276,7 +276,7 @@ body main #sign-up #children #form-sec form h3 {
 
 @media screen and (max-width: 650px) {
   body main #sign-up #children #form-sec form h3 {
-    font-size: 4.2vw;
+    font-size: 5vw;
     padding-top: .2vh;
     padding-bottom: 0;
   }
@@ -345,7 +345,8 @@ body main #sign-up #children #form-sec form #names input[type="text"]:focus {
 @media screen and (max-width: 650px) {
   body main #sign-up #children #form-sec form #names input[type="text"] {
     width: inherit;
-    font-size: 3vw;
+    font-size: 4vw;
+    margin: 20px 0 0;
   }
 }
 
@@ -392,7 +393,8 @@ body main #sign-up #children #form-sec form input[type="email"]:focus {
 
 @media screen and (max-width: 650px) {
   body main #sign-up #children #form-sec form input[type="email"] {
-    font-size: 3vw;
+    font-size: 4vw;
+    margin: 12px 0 12px;
   }
 }
 
@@ -450,7 +452,7 @@ body main #sign-up #children #form-sec form #phone-date input[type="text"]:focus
 
 @media screen and (max-width: 650px) {
   body main #sign-up #children #form-sec form #phone-date input[type="text"], body main #sign-up #children #form-sec form #phone-date input[type="tel"] {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 }
 
@@ -493,6 +495,12 @@ body main #sign-up #children #form-sec form #phone-date .date {
   body main #sign-up #children #form-sec form #phone-date .date {
     width: -webkit-fill-available;
     margin-top: 8px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #sign-up #children #form-sec form #phone-date .date {
+    margin-top: 1px;
   }
 }
 
@@ -583,101 +591,74 @@ body main #sign-up #children #form-sec form input[type="submit"] {
 }
 
 body main #sign-up #happy-smiles-graphic {
-  width: 26vw;
+  width: 22vw;
   position: absolute;
   left: -50px;
-  margin-bottom: 150px;
-}
-
-@media screen and (max-height: 768px) {
-  body main #sign-up #happy-smiles-graphic {
-    width: 25vw;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  body main #sign-up #happy-smiles-graphic {
-    margin-bottom: 110px;
-    width: 24vw;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  body main #sign-up #happy-smiles-graphic {
-    margin-bottom: 50px;
-  }
+  top: 0;
+  bottom: 60px;
+  margin: auto;
 }
 
 @media screen and (max-width: 1100px) {
   body main #sign-up #happy-smiles-graphic {
     width: 25vw;
-    margin-bottom: 130px;
+    bottom: 13%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   body main #sign-up #happy-smiles-graphic {
-    margin-bottom: 180px;
+    bottom: 16%;
+    left: -40px;
   }
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 768px) {
   body main #sign-up #happy-smiles-graphic {
-    width: 26vw;
-    margin-bottom: 19vh;
-  }
-}
-
-@media screen and (max-width: 800px) {
-  body main #sign-up #happy-smiles-graphic {
-    left: -32px;
     width: 22vw;
-    margin-bottom: 9vh;
-  }
-}
-
-@media screen and (max-width: 720px) {
-  body main #sign-up #happy-smiles-graphic {
-    margin-bottom: 5vh;
+    bottom: 5%;
+    left: -30px;
   }
 }
 
 @media screen and (max-width: 650px) {
   body main #sign-up #happy-smiles-graphic {
+    width: 45vw;
+    bottom: -2%;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  body main #sign-up #happy-smiles-graphic {
+    bottom: -6%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body main #sign-up #happy-smiles-graphic {
     width: 43vw;
-    margin-bottom: 0;
-  }
-}
-
-@media screen and (max-width: 580px) {
-  body main #sign-up #happy-smiles-graphic {
-    margin-bottom: -50px;
-  }
-}
-
-@media screen and (max-width: 510px) {
-  body main #sign-up #happy-smiles-graphic {
-    margin-bottom: -100px;
+    bottom: -11%;
   }
 }
 
 @media screen and (max-width: 450px) {
   body main #sign-up #happy-smiles-graphic {
-    margin-bottom: 24px;
-    width: 45vw;
+    bottom: -6%;
+    width: 46vw;
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 380px) {
   body main #sign-up #happy-smiles-graphic {
-    margin-bottom: -5px;
+    bottom: -8%;
     left: -26px;
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 300px) {
   body main #sign-up #happy-smiles-graphic {
-    margin-bottom: -60px;
+    bottom: -11%;
+    width: 46vw;
   }
 }
 

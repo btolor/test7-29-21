@@ -83,6 +83,7 @@ body
                     height: 65vh
                 @include media-max(1024px)
                     height: 55vh
+                
                 @include media-max(650px)
                     flex-direction: column-reverse
                     height: inherit
@@ -143,7 +144,7 @@ body
                             @include center(75%, 0 auto)
                             padding: 36px 0
                         @include media-max(650px)
-                            width: 56%
+                            width: 80%
                         h3
                             font-size: 2.5vw
                             font-weight: 500
@@ -152,7 +153,7 @@ body
                                 font-size: 2.8vw
                                 padding-bottom: 1vh
                             @include media-max(650px)
-                                font-size: 4.2vw
+                                font-size: 5vw
                                 padding-top: .2vh
                                 padding-bottom: 0
                         #names
@@ -178,7 +179,8 @@ body
                                     width: -webkit-fill-available
                                 @include media-max(650px)
                                     width: inherit
-                                    font-size: 3vw
+                                    font-size: 4vw
+                                    margin: 20px 0 0 
                         input[type="email"]
                             font-size: 1.4vw
                             color: $white
@@ -194,7 +196,8 @@ body
                                 font-size: 2vw 
                                 margin: 12px 0 12px
                             @include media-max(650px)
-                                font-size: 3vw
+                                font-size: 4vw
+                                margin: 12px 0 12px
                         #phone-date
                             @include fullFlex(flex, row, space-between)
                             align-items: center
@@ -213,7 +216,7 @@ body
                                 @include media-max(800px)
                                     font-size: 2vw
                                 @include media-max(650px)
-                                    font-size: 3vw
+                                    font-size: 4vw
                             input[type="tel"]
                                 width: 52%
                                 @include media-max(1400px)
@@ -230,6 +233,8 @@ body
                                 @include media-max(800px)
                                     width: -webkit-fill-available
                                     margin-top: 8px
+                                @include media-max(650px )
+                                    margin-top: 1px
                                 input[type="text"]
                                     @include center(64%, 0 auto)
                                     @include media-max(1100px)
@@ -273,54 +278,39 @@ body
                                 margin-top: 12pxpx
                                 font-size: 3.8vw
             #happy-smiles-graphic
-                width: 26vw
+                width: 22vw
                 position: absolute
                 left: -50px
-                margin-bottom: 150px
-                // @include media-window-max(1366px,768px )
-                //     margin-bottom: 36px
-                // @include media-window-max(1024px,1366px)
-                //     margin-bottom: 90px
-                // @include media-window-max(800px,1280px)
-                //     margin-bottom: -2px
-                // @include media-window-max(768px,1024px)
-                //     margin-bottom: 0
-                @include media-height-max(768px)
+                top: 0
+                bottom: 60px
+                margin: auto
+                @media screen and (max-width: 1100px)
                     width: 25vw
-                @include media-max(1500px)
-                    margin-bottom: 110px
-                    width: 24vw 
-                @include media-max(1300px)
-                    margin-bottom: 50px
-                @include media-max(1100px)
-                    width: 25vw
-                    margin-bottom: 130px
-                @include media-max(1024px)
-                    margin-bottom: 180px
-                @include media-max(950px)
-                    width: 26vw
-                    margin-bottom: 19vh
-                @include media-max(800px)
-                    left: -32px
+                    bottom: 13%
+                @media screen and (max-width: 1024px)
+                    bottom: 16%
+                    left: -40px
+                @media screen and (max-width: $tablet)
                     width: 22vw
-                    margin-bottom: 9vh
-                @include media-max(720px)
-                    margin-bottom: 5vh
-                @include media-max(650px)
-                    width: 43vw
-                    margin-bottom: 0
-                @include media-max(580px)
-                    margin-bottom: -50px
-                @include media-max(510px)
-                    margin-bottom: -100px
-                @include media-max(450px)
-                    margin-bottom: 24px
+                    bottom: 5%
+                    left: -30px
+                @media screen and (max-width: 650px)
                     width: 45vw
-                @include media-max(420px)
-                    margin-bottom: -5px
+                    bottom: -2%
+                @media screen and (max-width: 560px)
+                    bottom: -6%
+                @media screen and (max-width: $phone)
+                    width: 43vw
+                    bottom: -11%
+                @media screen and (max-width: 450px)
+                    bottom: -6%
+                    width: 46vw
+                @media screen and (max-width: 380px)
+                    bottom: -8%
                     left: -26px
-                @include media-max(390px)
-                    margin-bottom: -60px
+                @media screen and (max-width: 300px)
+                    bottom: -11%
+                    width: 46vw
             // Pediatric Dentistry Styles...
             #pediatric-dentistry
                 .container
