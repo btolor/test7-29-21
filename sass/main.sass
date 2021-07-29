@@ -296,9 +296,7 @@ body
                     left: -30px
                 @media screen and (max-width: 650px)
                     width: 45vw
-                    bottom: -2%
-                @media screen and (max-width: 560px)
-                    bottom: -6%
+                    bottom: -8%
                 @media screen and (max-width: $phone)
                     width: 43vw
                     bottom: -11%
@@ -306,10 +304,10 @@ body
                     bottom: -6%
                     width: 46vw
                 @media screen and (max-width: 380px)
-                    bottom: -8%
+                    bottom: -2%
                     left: -26px
-                @media screen and (max-width: 300px)
-                    bottom: -11%
+                @media screen and (max-width: 350px)
+                    bottom: -6%
                     width: 46vw
             // Pediatric Dentistry Styles...
             #pediatric-dentistry
@@ -321,6 +319,7 @@ body
                     @include media-max(650px)
                         flex-direction: column
                         justify-content: center
+                        padding: 32px 0
                     #text-sec 
                         flex-grow: 1
                         padding-left: 72px
@@ -333,42 +332,39 @@ body
                             padding-right: 30px 
                         @include media-max(650px)
                             padding: 36px 0 32px
+                        @include media-max(350px)
+                            padding-top: 20px
                         h2 
-                            font-size: 2.5vw
+                            font-size: 2.8vw
                             font-weight: 600
                             color: $blue
                             padding-bottom: 16px
                             @include media-max(1100px)
-                                font-size: 2.8vw
                                 padding-bottom: 6px
                             @include media-max(900px)
                                 font-size: 2.87vw
                             @include media-max(650px)
                                 text-align: center
-                                font-size: 4vw
-                            @include media-max(650px)
-                                font-size: 4.4vw
+                                font-size: 32px
                                 padding-bottom: 16px
+                                padding-top: 30px
                             @include media-max(450px)
-                                font-size: 4.6vw
+                                font-size: 24px
                             @include media-max(350px)
-                                font-size: 4.8vw
+                                font-size: 26px
+                                padding-top: 0
                         p 
-                            font-size: 1.6vw
-                            font-weight: 500
+                            font-size: 20px
                             color: $black
                             line-height: 1.6
-                            @include media-max(1100px)
-                                font-size: 1.7vw
                             @include media-max(900px)
-                                font-size: 1.9vw
+                                font-size: 18px
+                            @include media-max($tablet)
+                                font-size: 16px
                             @include media-max(650px)
-                                font-size: 3vw
-                                @include center(86%, 0 auto)
-                            @include media-max(450px)
-                                font-size: 3.5vw
-                            @include media-max(350px)
-                                font-size: 4vw
+                                font-size: 19px
+                                @include center(90%, 0 auto)
+                                
                     #img-sec 
                         text-align: right
                         img 
@@ -475,9 +471,9 @@ body
                             width: 504px
             // Board Certified Styles...
             #board-certified 
-                display: none
                 background-color: $white
                 background: $white
+                display: none
                 .container
                     @include center(87%, 0 auto)
                     padding: 26px 0 26px 80px
