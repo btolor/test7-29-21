@@ -586,12 +586,18 @@ body main #sign-up #children #form-sec form input[type="submit"] {
 }
 
 body main #sign-up #happy-smiles-graphic {
-  width: 22vw;
+  width: 22%;
   position: absolute;
   left: -50px;
   top: 0;
   bottom: 60px;
   margin: auto;
+}
+
+@media screen and (max-width: 1364px) {
+  body main #sign-up #happy-smiles-graphic {
+    bottom: 196px;
+  }
 }
 
 @media screen and (max-width: 1100px) {
