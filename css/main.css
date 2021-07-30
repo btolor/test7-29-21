@@ -679,43 +679,43 @@ body main #sign-up #pediatric-dentistry .container {
   }
 }
 
-body main #sign-up #pediatric-dentistry .container #text-sec {
+body main #sign-up #pediatric-dentistry .container .text-sec {
   flex-grow: 1;
   padding-left: 72px;
   padding-right: 100px;
 }
 
 @media screen and (max-width: 1100px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec {
+  body main #sign-up #pediatric-dentistry .container .text-sec {
     padding-right: 50px;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec {
+  body main #sign-up #pediatric-dentistry .container .text-sec {
     padding-left: 26px;
   }
 }
 
 @media screen and (max-width: 750px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec {
+  body main #sign-up #pediatric-dentistry .container .text-sec {
     padding-right: 30px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec {
+  body main #sign-up #pediatric-dentistry .container .text-sec {
     padding: 36px 0 32px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec {
+  body main #sign-up #pediatric-dentistry .container .text-sec {
     padding-top: 20px;
   }
 }
 
-body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+body main #sign-up #pediatric-dentistry .container .text-sec h2 {
   font-size: 2.8vw;
   font-weight: 600;
   color: #3A86FF;
@@ -723,19 +723,19 @@ body main #sign-up #pediatric-dentistry .container #text-sec h2 {
 }
 
 @media screen and (max-width: 1100px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+  body main #sign-up #pediatric-dentistry .container .text-sec h2 {
     padding-bottom: 6px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+  body main #sign-up #pediatric-dentistry .container .text-sec h2 {
     font-size: 2.87vw;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+  body main #sign-up #pediatric-dentistry .container .text-sec h2 {
     text-align: center;
     font-size: 32px;
     padding-bottom: 16px;
@@ -744,66 +744,66 @@ body main #sign-up #pediatric-dentistry .container #text-sec h2 {
 }
 
 @media screen and (max-width: 450px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+  body main #sign-up #pediatric-dentistry .container .text-sec h2 {
     font-size: 24px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec h2 {
+  body main #sign-up #pediatric-dentistry .container .text-sec h2 {
     font-size: 26px;
     padding-top: 0;
   }
 }
 
-body main #sign-up #pediatric-dentistry .container #text-sec p {
+body main #sign-up #pediatric-dentistry .container .text-sec p {
   font-size: 22px;
   color: #000000;
   line-height: 1.6;
 }
 
 @media screen and (max-width: 900px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec p {
+  body main #sign-up #pediatric-dentistry .container .text-sec p {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec p {
+  body main #sign-up #pediatric-dentistry .container .text-sec p {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #sign-up #pediatric-dentistry .container #text-sec p {
+  body main #sign-up #pediatric-dentistry .container .text-sec p {
     font-size: 19px;
     width: 90%;
     margin: 0 auto;
   }
 }
 
-body main #sign-up #pediatric-dentistry .container #img-sec {
+body main #sign-up #pediatric-dentistry .container .img-sec {
   text-align: right;
 }
 
-body main #sign-up #pediatric-dentistry .container #img-sec img {
+body main #sign-up #pediatric-dentistry .container .img-sec img {
   width: 28vw;
 }
 
 @media screen and (max-width: 1100px) {
-  body main #sign-up #pediatric-dentistry .container #img-sec img {
+  body main #sign-up #pediatric-dentistry .container .img-sec img {
     width: 32vw;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #sign-up #pediatric-dentistry .container #img-sec img {
+  body main #sign-up #pediatric-dentistry .container .img-sec img {
     width: 56vw;
   }
 }
 
 @media screen and (max-width: 450px) {
-  body main #sign-up #pediatric-dentistry .container #img-sec img {
+  body main #sign-up #pediatric-dentistry .container .img-sec img {
     width: 65vw;
   }
 }
@@ -986,23 +986,23 @@ body main #choose-us #doctor .container {
   }
 }
 
-body main #choose-us #doctor .container #text-sec {
+body main #choose-us #doctor .container .text-sec {
   width: 60%;
 }
 
 @media screen and (max-width: 992px) {
-  body main #choose-us #doctor .container #text-sec {
+  body main #choose-us #doctor .container .text-sec {
     width: 63%;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #choose-us #doctor .container #text-sec {
+  body main #choose-us #doctor .container .text-sec {
     width: 100%;
   }
 }
 
-body main #choose-us #doctor .container #text-sec h2 {
+body main #choose-us #doctor .container .text-sec h2 {
   font-size: 2.8vw;
   font-weight: 600;
   color: #FFFFFF;
@@ -1010,31 +1010,31 @@ body main #choose-us #doctor .container #text-sec h2 {
 }
 
 @media screen and (max-width: 900px) {
-  body main #choose-us #doctor .container #text-sec h2 {
+  body main #choose-us #doctor .container .text-sec h2 {
     font-size: 2.87vw;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #choose-us #doctor .container #text-sec h2 {
+  body main #choose-us #doctor .container .text-sec h2 {
     font-size: 32px;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 450px) {
-  body main #choose-us #doctor .container #text-sec h2 {
+  body main #choose-us #doctor .container .text-sec h2 {
     font-size: 24px;
   }
 }
 
 @media screen and (max-width: 350px) {
-  body main #choose-us #doctor .container #text-sec h2 {
+  body main #choose-us #doctor .container .text-sec h2 {
     font-size: 26px;
   }
 }
 
-body main #choose-us #doctor .container #text-sec p {
+body main #choose-us #doctor .container .text-sec p {
   font-size: 20px;
   font-weight: 500;
   color: #FFFFFF;
@@ -1043,54 +1043,54 @@ body main #choose-us #doctor .container #text-sec p {
 }
 
 @media screen and (max-width: 1024px) {
-  body main #choose-us #doctor .container #text-sec p {
+  body main #choose-us #doctor .container .text-sec p {
     padding-bottom: 18px;
   }
 }
 
 @media screen and (max-width: 900px) {
-  body main #choose-us #doctor .container #text-sec p {
+  body main #choose-us #doctor .container .text-sec p {
     font-size: 18px;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body main #choose-us #doctor .container #text-sec p {
+  body main #choose-us #doctor .container .text-sec p {
     font-size: 16px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #choose-us #doctor .container #text-sec p {
+  body main #choose-us #doctor .container .text-sec p {
     font-size: 19px;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #choose-us #doctor .container #img-sec {
+  body main #choose-us #doctor .container .img-sec {
     margin-top: 52vh;
   }
 }
 
 @media screen and (max-width: 500px) {
-  body main #choose-us #doctor .container #img-sec {
+  body main #choose-us #doctor .container .img-sec {
     margin-top: 46vh;
   }
 }
 
 @media screen and (max-width: 450px) {
-  body main #choose-us #doctor .container #img-sec {
+  body main #choose-us #doctor .container .img-sec {
     margin-top: 40vh;
   }
 }
 
 @media screen and (max-height: 680px) {
-  body main #choose-us #doctor .container #img-sec {
+  body main #choose-us #doctor .container .img-sec {
     margin-top: 43vh;
   }
 }
 
-body main #choose-us #doctor .container #img-sec img {
+body main #choose-us #doctor .container .img-sec img {
   position: absolute;
   right: 0;
   bottom: 42px;
@@ -1098,59 +1098,59 @@ body main #choose-us #doctor .container #img-sec img {
 }
 
 @media screen and (max-width: 1200px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     bottom: 80px;
     width: 50vh;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 47vh;
   }
 }
 
 @media screen and (max-width: 900px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 44vh;
   }
 }
 
 @media screen and (max-width: 768px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 40vh;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 48vw;
     bottom: 100px;
   }
 }
 
 @media screen and (max-width: 560px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 52vw;
     bottom: 92px;
   }
 }
 
 @media screen and (max-width: 440px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 54vw;
     bottom: 78px;
   }
 }
 
 @media screen and (max-width: 378px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 65vw;
   }
 }
 
 @media screen and (max-width: 360px) {
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 62vw;
   }
 }
@@ -1308,6 +1308,7 @@ body footer #map-sec {
 
 body footer #map-sec iframe {
   height: 100%;
+  width: 100%;
 }
 
 @media screen and (max-width: 900px) {
@@ -1452,7 +1453,7 @@ body footer #info-sec .container #icons img {
     bottom: -3%;
     width: 25vw;
   }
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 36vh;
   }
 }
@@ -1476,7 +1477,7 @@ body footer #info-sec .container #icons img {
   body main #sign-up #children {
     height: 40vh;
   }
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: 27vh;
   }
 }
@@ -1488,7 +1489,7 @@ body footer #info-sec .container #icons img {
   body main #sign-up #happy-smiles-graphic {
     bottom: 18%;
   }
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: clamp(44vh, 48vh, 52vh);
   }
 }
@@ -1511,7 +1512,7 @@ body footer #info-sec .container #icons img {
     bottom: 8%;
     width: 22vw;
   }
-  body main #choose-us #doctor .container #img-sec img {
+  body main #choose-us #doctor .container .img-sec img {
     width: clamp(20vh, 23vh, 24vh);
   }
 }
