@@ -1443,3 +1443,69 @@ body footer #info-sec .container #icons img {
     width: 10vw;
   }
 }
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) {
+  body main #sign-up #children {
+    height: 46vh;
+  }
+  body main #sign-up #happy-smiles-graphic {
+    bottom: 14%;
+    width: 25vw;
+  }
+  body main #choose-us #doctor .container #img-sec img {
+    width: 36vh;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: portrait) {
+  body main #sign-up #children {
+    height: 34vh;
+  }
+  body main #sign-up #children #happy-smiles-graphic {
+    bottom: 14%;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  body main #sign-up #children {
+    height: 40vh;
+  }
+  body main #choose-us #doctor .container #img-sec img {
+    width: 27vh;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  body main #sign-up #children {
+    height: 54vh;
+  }
+  body main #sign-up #happy-smiles-graphic {
+    bottom: 18%;
+  }
+  body main #choose-us #doctor .container #img-sec img {
+    width: clamp(44vh, 48vh, 52vh);
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) {
+  body main #sign-up #children {
+    height: 62vh;
+  }
+  body main #sign-up #happy-smiles-graphic {
+    bottom: 8%;
+    width: 25vw;
+  }
+}
+
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
+  body main #sign-up #children {
+    height: 32vh;
+  }
+  body main #sign-up #happy-smiles-graphic {
+    bottom: 8%;
+    width: 22vw;
+  }
+  body main #choose-us #doctor .container #img-sec img {
+    width: clamp(20vh, 23vh, 24vh);
+  }
+}
