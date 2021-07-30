@@ -82,7 +82,7 @@ body
                     flex-direction: column-reverse
                     height: inherit
                 #kids-sec
-                    background-image: url('../images/min-img/kids-background.jpg')
+                    background-image: url('../images/kids-background.jpg')
                     background-size: cover
                     background-position: center center
                     background-repeat: no-repeat      
@@ -315,6 +315,8 @@ body
                         flex-grow: 1
                         padding-left: 72px
                         padding-right: 100px
+                        @include media-max(1280px)
+                            padding-top: 10%
                         @include media-max(1100px)
                             padding-right: 50px
                         @include media-max(1024px)
