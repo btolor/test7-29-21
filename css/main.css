@@ -128,7 +128,6 @@ body header .container #callnow a {
 body main #sign-up {
   background: #FFFFFF;
   background-color: #FFFFFF;
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -585,85 +584,35 @@ body main #sign-up #children #form-sec form input[type="submit"] {
   }
 }
 
-body main #sign-up #happy-smiles-graphic {
-  width: 22%;
-  position: absolute;
-  left: -50px;
-  top: 0;
-  bottom: 60px;
-  margin: auto;
+body main #sign-up #pediatric-dentistry {
+  position: relative;
 }
 
-@media screen and (max-width: 1364px) {
-  body main #sign-up #happy-smiles-graphic {
-    bottom: 196px;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  body main #sign-up #happy-smiles-graphic {
-    width: 25vw;
-    bottom: 17%;
-  }
+body main #sign-up #pediatric-dentistry #happy-smiles-graphic {
+  width: 25%;
+  margin-top: -15%;
+  margin-left: -3%;
 }
 
 @media screen and (max-width: 1024px) {
-  body main #sign-up #happy-smiles-graphic {
-    bottom: 22%;
-    left: -40px;
+  body main #sign-up #pediatric-dentistry #happy-smiles-graphic {
+    width: 26%;
+    margin-top: -16%;
+    margin-left: -4%;
   }
 }
 
-@media screen and (max-width: 900px) {
-  body main #sign-up #happy-smiles-graphic {
-    width: 24vw;
-    bottom: 11%;
-    left: -30px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  body main #sign-up #happy-smiles-graphic {
-    bottom: 2%;
+@media screen and (max-width: 800px) {
+  body main #sign-up #pediatric-dentistry #happy-smiles-graphic {
+    width: 23%;
+    margin-top: -15%;
   }
 }
 
 @media screen and (max-width: 650px) {
-  body main #sign-up #happy-smiles-graphic {
-    width: 40vw;
-    bottom: 4%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  body main #sign-up #happy-smiles-graphic {
-    bottom: 8%;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body main #sign-up #happy-smiles-graphic {
-    width: 43vw;
-    bottom: 24vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  body main #sign-up #happy-smiles-graphic {
-    width: 46vw;
-  }
-}
-
-@media screen and (max-width: 380px) {
-  body main #sign-up #happy-smiles-graphic {
-    bottom: 15%;
-    left: -26px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  body main #sign-up #happy-smiles-graphic {
-    width: 46vw;
+  body main #sign-up #pediatric-dentistry #happy-smiles-graphic {
+    width: 40%;
+    margin-top: -22%;
   }
 }
 
@@ -691,12 +640,6 @@ body main #sign-up #pediatric-dentistry .container .text-sec {
   padding-right: 100px;
 }
 
-@media screen and (max-width: 1280px) {
-  body main #sign-up #pediatric-dentistry .container .text-sec {
-    padding-top: 10%;
-  }
-}
-
 @media screen and (max-width: 1100px) {
   body main #sign-up #pediatric-dentistry .container .text-sec {
     padding-right: 50px;
@@ -717,13 +660,7 @@ body main #sign-up #pediatric-dentistry .container .text-sec {
 
 @media screen and (max-width: 650px) {
   body main #sign-up #pediatric-dentistry .container .text-sec {
-    padding: 36px 0 32px;
-  }
-}
-
-@media screen and (max-width: 350px) {
-  body main #sign-up #pediatric-dentistry .container .text-sec {
-    padding-top: 20px;
+    padding-bottom: 32px;
   }
 }
 
@@ -818,10 +755,6 @@ body main #sign-up #pediatric-dentistry .container .img-sec img {
   body main #sign-up #pediatric-dentistry .container .img-sec img {
     width: 65vw;
   }
-}
-
-body main #choose-us {
-  position: relative;
 }
 
 body main #choose-us #why {
@@ -973,6 +906,7 @@ body main #choose-us #reasons .container .reason p {
 body main #choose-us #doctor {
   background: #3A86FF;
   background-color: #3A86FF;
+  position: relative;
 }
 
 body main #choose-us #doctor .container {
@@ -995,6 +929,7 @@ body main #choose-us #doctor .container {
   body main #choose-us #doctor .container {
     flex-direction: column;
     padding-top: 50px;
+    padding-bottom: 0;
   }
 }
 
@@ -1080,90 +1015,116 @@ body main #choose-us #doctor .container .text-sec p {
 
 @media screen and (max-width: 650px) {
   body main #choose-us #doctor .container .img-sec {
-    margin-top: 52vh;
+    display: none;
   }
 }
 
-@media screen and (max-width: 500px) {
-  body main #choose-us #doctor .container .img-sec {
-    margin-top: 46vh;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  body main #choose-us #doctor .container .img-sec {
-    margin-top: 40vh;
-  }
-}
-
-@media screen and (max-height: 680px) {
-  body main #choose-us #doctor .container .img-sec {
-    margin-top: 43vh;
-  }
-}
-
-body main #choose-us #doctor .container .img-sec img {
+body main #choose-us #doctor .container .img-sec #desktop-img {
   position: absolute;
   right: 0;
-  bottom: 42px;
-  width: 57vh;
+  bottom: -18%;
+  width: 26%;
+}
+
+@media screen and (max-width: 2600px) {
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 2240px) {
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 18%;
+  }
+}
+
+@media screen and (max-width: 1940px) {
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 21%;
+  }
+}
+
+@media screen and (max-width: 1780px) {
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 24%;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 26%;
+  }
+}
+
+@media screen and (max-width: 1450px) {
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    bottom: -12%;
+    width: 28%;
+  }
 }
 
 @media screen and (max-width: 1200px) {
-  body main #choose-us #doctor .container .img-sec img {
-    bottom: 80px;
-    width: 50vh;
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 32%;
+    bottom: -8%;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 47vh;
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 36%;
   }
 }
 
-@media screen and (max-width: 900px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 44vh;
+@media screen and (max-width: 800px) {
+  body main #choose-us #doctor .container .img-sec #desktop-img {
+    width: 39%;
   }
 }
 
-@media screen and (max-width: 768px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 40vh;
-  }
+body main #choose-us .mobile-img-sec {
+  width: 100%;
+  background: #3A86FF;
+  background-color: #3A86FF;
+  text-align: right;
+  display: none;
 }
 
 @media screen and (max-width: 650px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 48vw;
-    bottom: 100px;
+  body main #choose-us .mobile-img-sec {
+    display: block;
   }
 }
 
-@media screen and (max-width: 560px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 52vw;
-    bottom: 92px;
+body main #choose-us .mobile-img-sec #mobile-img {
+  overflow: hidden;
+  margin-bottom: -10px;
+  width: 75%;
+}
+
+body main #choose-us .mobile-img-sec #name-banner {
+  background: #ED7F01;
+  background-color: #ED7F01;
+  text-align: center;
+  padding: 3% 0;
+}
+
+body main #choose-us .mobile-img-sec #name-banner h1 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 450px) {
+  body main #choose-us .mobile-img-sec #name-banner h1 {
+    font-size: 24px;
   }
 }
 
-@media screen and (max-width: 440px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 54vw;
-    bottom: 78px;
-  }
-}
-
-@media screen and (max-width: 378px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 65vw;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  body main #choose-us #doctor .container .img-sec img {
-    width: 62vw;
+@media screen and (max-width: 350px) {
+  body main #choose-us .mobile-img-sec #name-banner h1 {
+    font-size: 26px;
   }
 }
 
@@ -1181,6 +1142,12 @@ body main #choose-us #board-certified .container {
 @media screen and (max-width: 1024px) {
   body main #choose-us #board-certified .container {
     padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body main #choose-us #board-certified .container {
+    text-align: center;
   }
 }
 
@@ -1382,9 +1349,39 @@ body footer #info-sec a img {
   }
 }
 
+body footer #info-sec .container a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 1.7vw;
+  line-height: 1;
+  padding-bottom: 12px;
+}
+
+@media screen and (max-width: 900px) {
+  body footer #info-sec .container a {
+    padding-bottom: 6px;
+    font-size: 2.5vw;
+    line-height: 1.3;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body footer #info-sec .container a {
+    text-align: center;
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  body footer #info-sec .container a {
+    font-size: 5vw;
+  }
+}
+
 body footer #info-sec .container p {
   font-size: 1.7vw;
   line-height: 1;
+  color: #000000;
   padding-bottom: 12px;
 }
 
@@ -1461,21 +1458,11 @@ body footer #info-sec .container #icons img {
   body main #sign-up #children {
     height: 46vh;
   }
-  body main #sign-up #happy-smiles-graphic {
-    bottom: -3%;
-    width: 25vw;
-  }
-  body main #choose-us #doctor .container .img-sec img {
-    width: 36vh;
-  }
 }
 
 @media only screen and (max-device-width: 1024px) and (min-device-height: 1366px) and (orientation: portrait) {
   body main #sign-up #children {
     height: 34vh;
-  }
-  body main #sign-up #children #happy-smiles-graphic {
-    bottom: 14%;
   }
 }
 
@@ -1489,9 +1476,6 @@ body footer #info-sec .container #icons img {
   body main #sign-up #children {
     height: 40vh;
   }
-  body main #choose-us #doctor .container .img-sec img {
-    width: 27vh;
-  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -1501,30 +1485,16 @@ body footer #info-sec .container #icons img {
   body main #sign-up #happy-smiles-graphic {
     bottom: 18%;
   }
-  body main #choose-us #doctor .container .img-sec img {
-    width: clamp(44vh, 48vh, 52vh);
-  }
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: landscape) {
   body main #sign-up #children {
     height: 62vh;
   }
-  body main #sign-up #happy-smiles-graphic {
-    bottom: 8%;
-    width: 25vw;
-  }
 }
 
 @media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (orientation: portrait) {
   body main #sign-up #children {
     height: 32vh;
-  }
-  body main #sign-up #happy-smiles-graphic {
-    bottom: 8%;
-    width: 22vw;
-  }
-  body main #choose-us #doctor .container .img-sec img {
-    width: clamp(20vh, 23vh, 24vh);
   }
 }

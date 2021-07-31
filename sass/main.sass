@@ -66,7 +66,7 @@ body
         #sign-up
             background: $white
             background-color: $white
-            position: relative
+            // position: relative
             @include flex(flex, column)
             justify-content: center
             // Children Styles...
@@ -264,44 +264,23 @@ body
                             @include media-max(450px)
                                 margin-top: 12pxpx
                                 font-size: 3.8vw
-            #happy-smiles-graphic
-                width: 22%
-                position: absolute
-                left: -50px
-                top: 0
-                bottom: 60px
-                margin: auto
-                @include media-max(1364px)
-                    bottom: 196px
-                @media screen and (max-width: 1100px)
-                    width: 25vw
-                    bottom: 17%
-                @media screen and (max-width: 1024px)
-                    bottom: 22%
-                    left: -40px
-                @media screen and (max-width: 900px)
-                    width: 24vw
-                    bottom: 11%
-                    left: -30px
-                @media screen and (max-width: $tablet)
-                    bottom: 2%
-                @media screen and (max-width: 650px)
-                    width: 40vw
-                    bottom: 4%
-                @media screen and (max-width: 550px)
-                     bottom: 8%
-                @media screen and (max-width: $phone)
-                    width: 43vw
-                    bottom: 24vh
-                @media screen and (max-width: 450px)
-                    width: 46vw
-                @media screen and (max-width: 380px)
-                    bottom: 15%
-                    left: -26px
-                @media screen and (max-width: 350px)
-                    width: 46vw
             // Pediatric Dentistry Styles...
             #pediatric-dentistry
+                position: relative
+                #happy-smiles-graphic 
+                    width: 25% 
+                    margin-top: -15%
+                    margin-left: -3%
+                    @include media-max(1024px)
+                        width: 26% 
+                        margin-top: -16%
+                        margin-left: -4%
+                    @include media-max(800px)
+                        width: 23% 
+                        margin-top: -15%
+                    @include media-max(650px)
+                        width: 40% 
+                        margin-top: -22%
                 .container
                     @include center(87%, 0 auto)
                     @include fullFlex(flex, row,space-between)
@@ -315,8 +294,6 @@ body
                         flex-grow: 1
                         padding-left: 72px
                         padding-right: 100px
-                        @include media-max(1280px)
-                            padding-top: 10%
                         @include media-max(1100px)
                             padding-right: 50px
                         @include media-max(1024px)
@@ -324,9 +301,7 @@ body
                         @include media-max(750px)
                             padding-right: 30px 
                         @include media-max(650px)
-                            padding: 36px 0 32px
-                        @include media-max(350px)
-                            padding-top: 20px
+                            padding-bottom: 32px
                         h2 
                             font-size: 2.8vw
                             font-weight: 600
@@ -369,8 +344,7 @@ body
                             @include media-max(450px)
                                 width: 65vw
         // Choose Us Styles...
-        #choose-us 
-            position: relative      
+        #choose-us     
             // Why Styles...
             #why 
                 background: $orange
@@ -441,6 +415,7 @@ body
             #doctor
                 background: $blue
                 background-color: $blue
+                position: relative
                 .container
                     @include center(78%, 0 auto)
                     @include flex(flex,row)
@@ -452,6 +427,7 @@ body
                     @include media-max(650px)
                         flex-direction: column
                         padding-top: 50px
+                        padding-bottom: 0
                     .text-sec
                         width: 60%
                         @include media-max($laptop)
@@ -488,41 +464,60 @@ body
                                 font-size: 19px
                     .img-sec
                         @include media-max(650px)
-                            margin-top: 52vh
-                        @include media-max(500px)
-                            margin-top: 46vh
-                        @include media-max(450px)
-                            margin-top: 40vh
-                        @include media-height-max(680px)
-                            margin-top: 43vh
-                        img 
+                            display: none
+                        #desktop-img 
                             position: absolute
                             right: 0
-                            bottom: 42px
-                            width: 57vh
+                            bottom: -18%
+                            width: 26%
+                            @include media-max(2600px)
+                                width: 15%
+                            @include media-max(2240px)
+                                width: 18%
+                            @include media-max(1940px)
+                                width: 21%
+                            @include media-max(1780px)
+                                width: 24%
+                            @include media-max(1600px)
+                                width: 26%
+                            @include media-max(1450px)
+                                bottom: -12%
+                                width: 28%
                             @include media-max(1200px)
-                                bottom: 80px
-                                width: 50vh
+                                width: 32%
+                                bottom: -8%
                             @include media-max(1024px)
-                                width: 47vh
-                            @include media-max(900px)
-                                width: 44vh
-                            @include media-max(768px)
-                                width: 40vh
-                            @include media-max(650px)
-                                width: 48vw
-                                bottom: 100px
-                            @include media-max(560px)
-                                width: 52vw
-                                bottom: 92px
-                            @include media-max(440px)
-                                width: 54vw
-                                bottom: 78px
-                            @include media-max(378px)
-                                width: 65vw
-                            @include media-max(360px)
-                                width: 62vw
-                             
+                                width: 36%
+                            @include media-max(800px)
+                                width: 39%
+            // Doctor Kristi Mobile Image Styles... 
+            .mobile-img-sec
+                width: 100%
+                background: $blue
+                background-color: $blue
+                text-align: right
+                display: none
+                @include media-max(650px)
+                    display: block
+                #mobile-img   
+                    overflow: hidden
+                    margin-bottom: -10px
+                    width: 75%
+                #name-banner
+                    background: $orange
+                    background-color: $orange
+                    text-align: center
+                    padding: 3% 0
+                    h1
+                        font-size: 32px
+                        font-weight: 600
+                        color: $white
+                        letter-spacing: 1px
+                        @include media-max(450px)
+                            font-size: 24px
+                        @include media-max(350px)
+                            font-size: 26px
+
             // Board Certified Styles...
             #board-certified 
                 background-color: $white
@@ -532,6 +527,8 @@ body
                     padding: 26px 0 26px 80px
                     @include media-max(1024px)
                         padding-left: 0
+                    @include media-max(650px)
+                        text-align: center
                     img 
                         width: 40vw
                         @include media-max($laptop)
@@ -622,9 +619,25 @@ body
                 @include media-max(450px)
                     width: 66vw
             .container
+                a
+                    text-decoration: none
+                    color: $black
+                    font-size: 1.7vw
+                    line-height: 1
+                    padding-bottom: 12px
+                    @include media-max(900px)
+                        padding-bottom: 6px
+                        font-size: 2.5vw
+                        line-height: 1.3
+                    @include media-max(650px)
+                        text-align: center
+                        font-size: 4vw
+                    @include media-max(450px)
+                        font-size: 5vw
                 p 
                     font-size: 1.7vw
                     line-height: 1
+                    color: $black
                     padding-bottom: 12px
                     @include media-max(900px)
                         padding-bottom: 6px
@@ -656,26 +669,12 @@ body
                         @include media-max(450px)
                             width: 10vw
 
-
-
-
-
-
 @media only screen and (min-device-height : 1024px) and (max-device-width : 1366px ) and (orientation : landscape) 
     body
         main
             #sign-up
                 #children
                     height: 46vh 
-                #happy-smiles-graphic
-                    bottom: -3%
-                    width: 25vw
-            #choose-us
-                #doctor 
-                    .container 
-                        .img-sec
-                            img
-                                width: 36vh
 
 @media only screen and (max-device-width : 1024px) and (min-device-height : 1366px) and (orientation : portrait) 
     body
@@ -683,9 +682,7 @@ body
             #sign-up
                 #children
                     height: 34vh
-                    #happy-smiles-graphic
-                        bottom: 14%
-
+                    
 @media only screen and (min-device-width : 768px) and (max-device-width : 1366px) and (orientation : landscape)
     body
         main
@@ -699,12 +696,7 @@ body
             #sign-up
                 #children
                     height: 40vh
-            #choose-us
-                #doctor 
-                    .container 
-                        .img-sec
-                            img
-                                width: 27vh
+    
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) 
     body
         main
@@ -713,12 +705,6 @@ body
                     height: 54vh
                 #happy-smiles-graphic
                     bottom: 18%
-            #choose-us
-                #doctor 
-                    .container 
-                        .img-sec
-                            img
-                                width: clamp(44vh, 48vh, 52vh)
             
 @media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : landscape) 
     body
@@ -726,22 +712,11 @@ body
             #sign-up
                 #children
                     height: 62vh
-                #happy-smiles-graphic
-                    bottom: 8%
-                    width: 25vw
+
 @media only screen and (min-device-width : 800px) and (max-device-width : 1280px) and (orientation : portrait)
     body
         main
             #sign-up
                 #children
                     height: 32vh
-                #happy-smiles-graphic
-                    bottom: 8%
-                    width: 22vw
-            #choose-us
-                #doctor 
-                    .container 
-                        .img-sec
-                            img
-                                width: clamp(20vh, 23vh, 24vh)
-
+           
