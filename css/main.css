@@ -1152,24 +1152,18 @@ body main #choose-us #board-certified .container {
 }
 
 body main #choose-us #board-certified .container img {
-  width: 40vw;
+  width: 50%;
 }
 
 @media screen and (max-width: 992px) {
   body main #choose-us #board-certified .container img {
-    width: 45vw;
+    width: 65%;
   }
 }
 
 @media screen and (max-width: 650px) {
   body main #choose-us #board-certified .container img {
-    width: 60vw;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  body main #choose-us #board-certified .container img {
-    width: 65vw;
+    width: 95%;
   }
 }
 
@@ -1349,6 +1343,11 @@ body footer #info-sec a img {
   }
 }
 
+body footer #info-sec .container {
+  display: flex;
+  flex-direction: column;
+}
+
 body footer #info-sec .container a {
   text-decoration: none;
   color: #000000;
@@ -1374,34 +1373,6 @@ body footer #info-sec .container a {
 
 @media screen and (max-width: 450px) {
   body footer #info-sec .container a {
-    font-size: 5vw;
-  }
-}
-
-body footer #info-sec .container p {
-  font-size: 1.7vw;
-  line-height: 1;
-  color: #000000;
-  padding-bottom: 12px;
-}
-
-@media screen and (max-width: 900px) {
-  body footer #info-sec .container p {
-    padding-bottom: 6px;
-    font-size: 2.5vw;
-    line-height: 1.3;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  body footer #info-sec .container p {
-    text-align: center;
-    font-size: 4vw;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  body footer #info-sec .container p {
     font-size: 5vw;
   }
 }
