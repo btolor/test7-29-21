@@ -285,11 +285,11 @@ body
                     @include center(87%, 0 auto)
                     @include fullFlex(flex, row,space-between)
                     align-items: center
-                    padding: 65px 0
+                    padding-bottom: 65px 
                     @include media-max(650px)
                         flex-direction: column
                         justify-content: center
-                        padding: 32px 0
+                        padding-bottom: 32px
                     .text-sec 
                         flex-grow: 1
                         padding-left: 72px
@@ -301,6 +301,8 @@ body
                         @include media-max(750px)
                             padding-right: 30px 
                         @include media-max(650px)
+                            padding-left: 0
+                            padding-right: 0
                             padding-bottom: 32px
                         h2 
                             font-size: 2.8vw
@@ -313,9 +315,9 @@ body
                                 font-size: 2.87vw
                             @include media-max(650px)
                                 text-align: center
-                                font-size: 32px
-                                padding-bottom: 16px
-                                padding-top: 30px
+                                font-size: 5.5vw
+                                padding-bottom: 12px
+                                padding-top: 6vw
                             @include media-max(450px)
                                 font-size: 24px
                             @include media-max(350px)
@@ -325,6 +327,8 @@ body
                             font-size: 22px
                             color: $black
                             line-height: 1.6
+                            @include media-min(1600px)
+                                font-size: 2vw
                             @include media-max(900px)
                                 font-size: 18px
                             @include media-max($tablet)
@@ -454,6 +458,10 @@ body
                             color: $white
                             line-height: 1.6
                             padding-bottom: 28px
+                            @include media-min(1600px)
+                                font-size: 2vw
+                            @include media-max(1600px)
+                                font-size: 20px
                             @include media-max(1024px)
                                 padding-bottom: 18px
                             @include media-max(900px)
@@ -470,15 +478,12 @@ body
                             right: 0
                             bottom: -18%
                             width: 26%
-                            @include media-max(2600px)
-                                width: 15%
-                            @include media-max(2240px)
-                                width: 18%
-                            @include media-max(1940px)
-                                width: 21%
-                            @include media-max(1780px)
-                                width: 24%
+                            @include media-min(1600px)
+                                width: 39%
+                            @include media-max(1800px)
+                                bottom: -11%
                             @include media-max(1600px)
+                                bottom: -18%
                                 width: 26%
                             @include media-max(1450px)
                                 bottom: -12%

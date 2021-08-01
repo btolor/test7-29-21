@@ -623,14 +623,14 @@ body main #sign-up #pediatric-dentistry .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 65px 0;
+  padding-bottom: 65px;
 }
 
 @media screen and (max-width: 650px) {
   body main #sign-up #pediatric-dentistry .container {
     flex-direction: column;
     justify-content: center;
-    padding: 32px 0;
+    padding-bottom: 32px;
   }
 }
 
@@ -660,6 +660,8 @@ body main #sign-up #pediatric-dentistry .container .text-sec {
 
 @media screen and (max-width: 650px) {
   body main #sign-up #pediatric-dentistry .container .text-sec {
+    padding-left: 0;
+    padding-right: 0;
     padding-bottom: 32px;
   }
 }
@@ -686,9 +688,9 @@ body main #sign-up #pediatric-dentistry .container .text-sec h2 {
 @media screen and (max-width: 650px) {
   body main #sign-up #pediatric-dentistry .container .text-sec h2 {
     text-align: center;
-    font-size: 32px;
-    padding-bottom: 16px;
-    padding-top: 30px;
+    font-size: 5.5vw;
+    padding-bottom: 12px;
+    padding-top: 6vw;
   }
 }
 
@@ -709,6 +711,12 @@ body main #sign-up #pediatric-dentistry .container .text-sec p {
   font-size: 22px;
   color: #000000;
   line-height: 1.6;
+}
+
+@media screen and (min-width: 1600px) {
+  body main #sign-up #pediatric-dentistry .container .text-sec p {
+    font-size: 2vw;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -989,6 +997,18 @@ body main #choose-us #doctor .container .text-sec p {
   padding-bottom: 28px;
 }
 
+@media screen and (min-width: 1600px) {
+  body main #choose-us #doctor .container .text-sec p {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  body main #choose-us #doctor .container .text-sec p {
+    font-size: 20px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   body main #choose-us #doctor .container .text-sec p {
     padding-bottom: 18px;
@@ -1026,32 +1046,21 @@ body main #choose-us #doctor .container .img-sec #desktop-img {
   width: 26%;
 }
 
-@media screen and (max-width: 2600px) {
+@media screen and (min-width: 1600px) {
   body main #choose-us #doctor .container .img-sec #desktop-img {
-    width: 15%;
+    width: 39%;
   }
 }
 
-@media screen and (max-width: 2240px) {
+@media screen and (max-width: 1800px) {
   body main #choose-us #doctor .container .img-sec #desktop-img {
-    width: 18%;
-  }
-}
-
-@media screen and (max-width: 1940px) {
-  body main #choose-us #doctor .container .img-sec #desktop-img {
-    width: 21%;
-  }
-}
-
-@media screen and (max-width: 1780px) {
-  body main #choose-us #doctor .container .img-sec #desktop-img {
-    width: 24%;
+    bottom: -11%;
   }
 }
 
 @media screen and (max-width: 1600px) {
   body main #choose-us #doctor .container .img-sec #desktop-img {
+    bottom: -18%;
     width: 26%;
   }
 }
